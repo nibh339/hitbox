@@ -1,340 +1,1805 @@
-[16:35:57] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[16:35:57] [Server thread/INFO]: Loading properties
-[16:35:57] [Server thread/INFO]: Default game type: SURVIVAL
-[16:35:57] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[16:35:57] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
-[16:35:57] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
-[16:35:57] [Server thread/INFO]: Unable to find file ops.json, creating it.
-[16:35:57] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
-[16:35:57] [Server thread/INFO]: Debug logging is disabled
-[16:35:57] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[16:35:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:00:32] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[17:00:32] [Server thread/INFO]: Loading properties
+[17:00:32] [Server thread/INFO]: Default game type: SURVIVAL
+[17:00:32] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[17:00:33] [Server thread/INFO]: Debug logging is disabled
+[17:00:33] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[17:00:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[16:35:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:35:57] [Server thread/INFO]: Data value allowed items: 
-[16:35:57] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[17:00:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:00:33] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[16:35:57] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[17:00:33] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[16:35:57] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[17:00:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[16:35:57] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[17:00:33] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[16:35:57] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[17:00:33] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[16:35:57] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[17:00:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[16:35:57] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[17:00:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[16:35:57] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[17:00:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[16:35:57] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[17:00:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[16:35:57] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[17:00:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[16:35:57] [Server thread/INFO]: Generating keypair
-[16:35:58] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[16:35:58] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[16:35:58] [Server thread/INFO]: Using default channel type
-[16:35:58] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[16:35:58] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[16:35:58] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[16:35:58] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[16:35:58] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[16:35:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:35:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:35:58] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[16:35:58] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[16:35:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:35:58] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[16:35:58] [Server thread/INFO]: Preparing level "world"
-[16:35:58] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:35:58] [Server thread/INFO]: Anti X-Ray: true
-[16:35:58] [Server thread/INFO]: 	Engine Mode: 1
-[16:35:58] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:35:58] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:35:58] [Server thread/INFO]: Mob Spawn Range: 4
-[16:35:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:35:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:35:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:35:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:35:58] [Server thread/INFO]: Random Lighting Updates: false
-[16:35:58] [Server thread/INFO]: Structure Info Saving: true
-[16:35:58] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:35:58] [Server thread/INFO]: Max Entity Collisions: 8
-[16:35:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:35:58] [Server thread/INFO]: Max TNT Explosions: 100
-[16:35:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:35:58] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:35:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:35:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:35:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:35:58] [Server thread/INFO]: View Distance: 4
-[16:35:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:35:58] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:35:58] [Server thread/INFO]: Clear tick list: false
-[16:35:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:35:58] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:35:58] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:35:58] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:35:58] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:35:58] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:35:58] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:35:58] [Server thread/INFO]: Water over lava flow speed: 5
-[16:35:58] [Server thread/INFO]: Fix TNT cannons: false
-[16:35:58] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:35:58] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:35:58] [Server thread/INFO]: World async lighting: false
-[16:35:58] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:35:58] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:35:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:35:58] [Server thread/INFO]: Anti X-Ray: true
-[16:35:58] [Server thread/INFO]: 	Engine Mode: 1
-[16:35:58] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:35:58] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:35:58] [Server thread/INFO]: Mob Spawn Range: 4
-[16:35:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:35:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:35:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:35:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:35:58] [Server thread/INFO]: Random Lighting Updates: false
-[16:35:58] [Server thread/INFO]: Structure Info Saving: true
-[16:35:58] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:35:58] [Server thread/INFO]: Max Entity Collisions: 8
-[16:35:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:35:58] [Server thread/INFO]: Max TNT Explosions: 100
-[16:35:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:35:58] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:35:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:35:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:35:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:35:58] [Server thread/INFO]: View Distance: 4
-[16:35:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:35:58] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:35:58] [Server thread/INFO]: Clear tick list: false
-[16:35:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:35:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:35:58] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:35:58] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:35:58] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:35:58] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:35:58] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:35:58] [Server thread/INFO]: Water over lava flow speed: 5
-[16:35:58] [Server thread/INFO]: Fix TNT cannons: false
-[16:35:58] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:35:58] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:35:58] [Server thread/INFO]: World async lighting: false
-[16:35:58] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:35:58] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:35:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:35:58] [Server thread/INFO]: Anti X-Ray: true
-[16:35:58] [Server thread/INFO]: 	Engine Mode: 1
-[16:35:58] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:35:58] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:35:58] [Server thread/INFO]: Mob Spawn Range: 4
-[16:35:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:35:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:35:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:35:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:35:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:35:58] [Server thread/INFO]: Random Lighting Updates: false
-[16:35:58] [Server thread/INFO]: Structure Info Saving: true
-[16:35:58] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:35:58] [Server thread/INFO]: Max Entity Collisions: 8
-[16:35:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:35:58] [Server thread/INFO]: Max TNT Explosions: 100
-[16:35:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:35:58] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:35:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:35:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:35:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:35:58] [Server thread/INFO]: View Distance: 4
-[16:35:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:35:58] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:35:58] [Server thread/INFO]: Clear tick list: false
-[16:35:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:35:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:35:58] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:35:58] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:35:58] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:35:58] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:35:58] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:35:58] [Server thread/INFO]: Water over lava flow speed: 5
-[16:35:58] [Server thread/INFO]: Fix TNT cannons: false
-[16:35:58] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:35:58] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:35:58] [Server thread/INFO]: World async lighting: false
-[16:35:58] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:35:58] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:35:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7221635520901394193)
-[16:35:59] [Server thread/INFO]: Preparing spawn area: 8%
-[16:36:00] [Server thread/INFO]: Preparing spawn area: 16%
-[16:36:01] [Server thread/INFO]: Preparing spawn area: 25%
-[16:36:02] [Server thread/INFO]: Preparing spawn area: 36%
-[16:36:03] [Server thread/INFO]: Preparing spawn area: 51%
-[16:36:04] [Server thread/INFO]: Preparing spawn area: 64%
-[16:36:05] [Server thread/INFO]: Preparing spawn area: 78%
-[16:36:06] [Server thread/INFO]: Preparing spawn area: 91%
-[16:36:07] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7221635520901394193)
-[16:36:08] [Server thread/INFO]: Preparing spawn area: 19%
-[16:36:09] [Server thread/INFO]: Preparing spawn area: 45%
-[16:36:10] [Server thread/INFO]: Preparing spawn area: 76%
-[16:36:11] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7221635520901394193)
-[16:36:12] [Server thread/INFO]: Preparing spawn area: 76%
-[16:36:12] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[16:36:12] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[17:00:33] [Server thread/INFO]: Data value allowed items: 
+[17:00:33] [Server thread/INFO]: Generating keypair
+[17:00:33] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[17:00:33] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[17:00:33] [Server thread/INFO]: Using default channel type
+[17:00:33] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[17:00:33] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[17:00:33] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[17:00:33] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[17:00:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:00:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:00:33] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[17:00:33] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[17:00:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:00:33] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[17:00:33] [Server thread/INFO]: Preparing level "world"
+[17:00:33] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:00:33] [Server thread/INFO]: Mob Spawn Range: 4
+[17:00:33] [Server thread/INFO]: Anti X-Ray: true
+[17:00:33] [Server thread/INFO]: 	Engine Mode: 1
+[17:00:33] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:00:33] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:00:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:00:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:00:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:00:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:00:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:00:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:00:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:00:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:00:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:00:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:00:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:00:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:00:33] [Server thread/INFO]: Random Lighting Updates: false
+[17:00:33] [Server thread/INFO]: Structure Info Saving: true
+[17:00:33] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:00:33] [Server thread/INFO]: Max Entity Collisions: 8
+[17:00:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:00:33] [Server thread/INFO]: Max TNT Explosions: 100
+[17:00:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:00:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:00:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:00:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:00:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:00:33] [Server thread/INFO]: View Distance: 4
+[17:00:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:00:33] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:00:33] [Server thread/INFO]: Clear tick list: false
+[17:00:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:00:33] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:00:33] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:00:33] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:00:33] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:00:33] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:00:33] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:00:33] [Server thread/INFO]: Water over lava flow speed: 5
+[17:00:33] [Server thread/INFO]: Fix TNT cannons: false
+[17:00:33] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:00:33] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:00:33] [Server thread/INFO]: World async lighting: false
+[17:00:33] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:00:33] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:00:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:00:34] [Server thread/INFO]: Mob Spawn Range: 4
+[17:00:34] [Server thread/INFO]: Anti X-Ray: true
+[17:00:34] [Server thread/INFO]: 	Engine Mode: 1
+[17:00:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:00:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:00:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:00:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:00:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:00:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:00:34] [Server thread/INFO]: Random Lighting Updates: false
+[17:00:34] [Server thread/INFO]: Structure Info Saving: true
+[17:00:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:00:34] [Server thread/INFO]: Max Entity Collisions: 8
+[17:00:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:00:34] [Server thread/INFO]: Max TNT Explosions: 100
+[17:00:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:00:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:00:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:00:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:00:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:00:34] [Server thread/INFO]: View Distance: 4
+[17:00:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:00:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:00:34] [Server thread/INFO]: Clear tick list: false
+[17:00:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:00:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:00:34] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:00:34] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:00:34] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:00:34] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:00:34] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:00:34] [Server thread/INFO]: Water over lava flow speed: 5
+[17:00:34] [Server thread/INFO]: Fix TNT cannons: false
+[17:00:34] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:00:34] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:00:34] [Server thread/INFO]: World async lighting: false
+[17:00:34] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:00:34] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:00:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:00:34] [Server thread/INFO]: Mob Spawn Range: 4
+[17:00:34] [Server thread/INFO]: Anti X-Ray: true
+[17:00:34] [Server thread/INFO]: 	Engine Mode: 1
+[17:00:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:00:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:00:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:00:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:00:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:00:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:00:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:00:34] [Server thread/INFO]: Random Lighting Updates: false
+[17:00:34] [Server thread/INFO]: Structure Info Saving: true
+[17:00:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:00:34] [Server thread/INFO]: Max Entity Collisions: 8
+[17:00:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:00:34] [Server thread/INFO]: Max TNT Explosions: 100
+[17:00:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:00:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:00:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:00:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:00:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:00:34] [Server thread/INFO]: View Distance: 4
+[17:00:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:00:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:00:34] [Server thread/INFO]: Clear tick list: false
+[17:00:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:00:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:00:34] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:00:34] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:00:34] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:00:34] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:00:34] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:00:34] [Server thread/INFO]: Water over lava flow speed: 5
+[17:00:34] [Server thread/INFO]: Fix TNT cannons: false
+[17:00:34] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:00:34] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:00:34] [Server thread/INFO]: World async lighting: false
+[17:00:34] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:00:34] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:00:34] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7221635520901394193)
+[17:00:35] [Server thread/INFO]: Preparing spawn area: 27%
+[17:00:36] [Server thread/INFO]: Preparing spawn area: 77%
+[17:00:36] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7221635520901394193)
+[17:00:37] [Server thread/INFO]: Preparing spawn area: 12%
+[17:00:38] [Server thread/INFO]: Preparing spawn area: 49%
+[17:00:39] [Server thread/INFO]: Preparing spawn area: 82%
+[17:00:40] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7221635520901394193)
+[17:00:40] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[17:00:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[17:00:40] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:00:41] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[17:00:41] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[17:00:41] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[17:00:41] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[17:00:41] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[17:00:41] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[17:00:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:00:41] [Server thread/INFO]: Done (7.545s)! For help, type "help" or "?"
+[17:00:41] [Server thread/INFO]: Timings Reset
+[17:01:20] [Thread-6/INFO]: UUID of player darthfurry is 4db55e70-ab71-3b7a-9b39-527e1037b9fd
+[17:01:21] [Server thread/INFO]: darthfurry[/[0:0:0:0:0:0:0:1]:60720] logged in with entity id 635 at ([world]628.5573511749167, 68.0, 534.3087261691805)
+[17:01:28] [Server thread/INFO]: darthfurry issued server command: /gamerule sendCommandFeedback false
+[17:01:43] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[17:01:43] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[17:02:55] [Thread-7/INFO]: UUID of player bark_simmons is 3e098573-8914-312d-84ae-f5d3c4381497
+[17:02:55] [Server thread/INFO]: bark_simmons[/[0:0:0:0:0:0:0:1]:47590] logged in with entity id 1561 at ([world]178.93923085835272, 57.015555072702206, 289.69999998807907)
+[17:03:12] [Async Chat Thread - #0/INFO]: <bark_simmons> hi[m
 
-[16:36:12] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[17:03:14] [Async Chat Thread - #0/INFO]: <darthfurry> hij[m
 
-[16:36:12] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[16:36:12] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[16:36:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[16:36:13] [Server thread/INFO]: WEPIF: Updated config file
-[16:36:13] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:36:13] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[16:36:13] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[16:36:13] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[16:36:13] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[16:36:13] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[16:36:13] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[16:36:13] [Server thread/INFO]: Done (14.982s)! For help, type "help" or "?"
-[16:36:13] [Server thread/INFO]: Timings Reset
-[16:36:13] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[17:03:15] [Async Chat Thread - #0/INFO]: <darthfurry> hi[m
 
-[16:36:13] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[17:03:54] [Async Chat Thread - #0/INFO]: <bark_simmons> do you know the person who stole my shit?[m
 
-[16:36:14] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[17:03:56] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[17:03:56] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[17:03:56] [Async Chat Thread - #0/INFO]: <darthfurry> no[m
 
-[16:38:12] [Thread-7/INFO]: UUID of player darthfurry is 4db55e70-ab71-3b7a-9b39-527e1037b9fd
-[16:38:12] [Server thread/INFO]: darthfurry[/[0:0:0:0:0:0:0:1]:44106] logged in with entity id 2642 at ([world]219.5, 63.0, 249.5)
-[16:38:18] [Server thread/INFO]: darthfurry has just earned the achievement [Taking Inventory]
-[16:38:34] [Thread-8/INFO]: UUID of player VIIth is af17bae5-2553-38e3-8e10-e13b270f6611
-[16:38:34] [Server thread/INFO]: VIIth[/[0:0:0:0:0:0:0:1]:59460] logged in with entity id 2931 at ([world]231.5, 64.0, 263.5)
-[16:38:35] [Server thread/INFO]: Opped darthfurry
-[16:38:41] [Async Chat Thread - #0/INFO]: <darthfurry> yippee[m
+[17:03:59] [Async Chat Thread - #0/INFO]: <bark_simmons> k[m
 
-[16:38:45] [Async Chat Thread - #0/INFO]: <darthfurry> im so glad it works at least[m
+[17:04:22] [Server thread/INFO]: darthfurry issued server command: /gamemode survival
+[17:04:22] [Server thread/INFO]: [darthfurry: Set own game mode to Survival Mode]
+[17:04:45] [Async Chat Thread - #0/INFO]: <bark_simmons> btw[m
 
-[16:38:53] [Thread-9/INFO]: UUID of player Seraphena_Dolard is 7df737fb-a431-3883-8164-548cfc80ad55
-[16:38:53] [Server thread/INFO]: Seraphena_Dolard[/[0:0:0:0:0:0:0:1]:55686] logged in with entity id 3177 at ([world]230.5, 61.0, 264.5)
-[16:39:00] [Server thread/INFO]: darthfurry has just earned the achievement [Getting Wood]
-[16:39:01] [Async Chat Thread - #0/INFO]: <VIIth> i cant break[m
+[17:04:51] [Async Chat Thread - #0/INFO]: <bark_simmons> can i move into ur base?[m
 
-[16:39:03] [Server thread/INFO]: VIIth has just earned the achievement [Taking Inventory]
-[16:39:21] [Server thread/INFO]: darthfurry has just earned the achievement [Benchmarking]
-[16:39:29] [Async Chat Thread - #0/INFO]: <Seraphena_Dolard> er[m
+[17:04:57] [Async Chat Thread - #0/INFO]: <darthfurry> ummmm[m
 
-[16:39:36] [Async Chat Thread - #0/INFO]: <VIIth> can't break blockes[m
+[17:05:01] [Async Chat Thread - #0/INFO]: <darthfurry> im kinda far[m
 
-[16:39:38] [Server thread/INFO]: darthfurry has just earned the achievement [Time to Mine!]
-[16:39:39] [Async Chat Thread - #0/INFO]: <Seraphena_Dolard> yeah[m
+[17:05:07] [Async Chat Thread - #0/INFO]: <bark_simmons> k[m
 
-[16:39:40] [Async Chat Thread - #0/INFO]: <darthfurry> dont do it near spawn[m
+[17:05:07] [Async Chat Thread - #0/INFO]: <darthfurry> plus i dont really have one[m
 
-[16:39:42] [Async Chat Thread - #0/INFO]: <darthfurry> spawns is cursed[m
+[17:05:11] [Async Chat Thread - #0/INFO]: <darthfurry> i mean i do but[m
 
-[16:39:47] [Async Chat Thread - #0/INFO]: <Seraphena_Dolard> im in a hole[m
+[17:05:14] [Server thread/INFO]: darthfurry issued server command: /give @p iron_pickaxe
+[17:05:14] [Server thread/INFO]: [darthfurry: Given [Iron Pickaxe] * 1 to darthfurry]
+[17:05:19] [Server thread/INFO]: darthfurry issued server command: /give @p ender_chest
+[17:05:19] [Server thread/INFO]: [darthfurry: Given [Ender Chest] * 1 to darthfurry]
+[17:05:24] [Async Chat Thread - #0/INFO]: <bark_simmons> can we make one then?[m
 
-[16:39:48] [Server thread/INFO]: VIIth has just earned the achievement [Getting Wood]
-[16:39:53] [Async Chat Thread - #0/INFO]: <Seraphena_Dolard> like[m
+[17:05:27] [Thread-8/INFO]: UUID of player osama is a47790d8-daeb-3ae6-afe1-19897aaaee79
+[17:05:27] [Server thread/INFO]: osama[/[0:0:0:0:0:0:0:1]:58582] logged in with entity id 3575 at ([world]209.41316508621819, 68.0, 281.8676553529229)
+[17:05:33] [Async Chat Thread - #0/INFO]: <darthfurry> um[m
 
-[16:40:03] [Server thread/INFO]: darthfurry issued server command: /tp Seraphena_Dolard darthfurry
-[16:40:03] [Server thread/INFO]: [darthfurry: Teleported Seraphena_Dolard to darthfurry]
-[16:40:08] [Async Chat Thread - #0/INFO]: <VIIth> lol[m
+[17:05:34] [Async Chat Thread - #0/INFO]: <darthfurry> later[m
 
-[16:40:12] [Async Chat Thread - #0/INFO]: <darthfurry> what she was stuck[m
+[17:05:40] [Async Chat Thread - #0/INFO]: <bark_simmons> oh ok....[m
 
-[16:40:17] [Server thread/INFO]: VIIth has just earned the achievement [Benchmarking]
-[16:40:22] [Async Chat Thread - #0/INFO]: <Seraphena_Dolard> help step darth~[m
+[17:05:46] [Async Chat Thread - #0/INFO]: <osama> give diamond[m
 
-[16:40:50] [Server thread/INFO]: Seraphena_Dolard has just earned the achievement [Taking Inventory]
-[16:40:55] [Async Chat Thread - #0/INFO]: <darthfurry> ima have to go[m
+[17:05:48] [Async Chat Thread - #0/INFO]: <darthfurry> no[m
 
-[16:41:04] [Async Chat Thread - #0/INFO]: <Seraphena_Dolard> to?[m
+[17:05:49] [Async Chat Thread - #0/INFO]: <osama> s[m
 
-[16:41:07] [Async Chat Thread - #0/INFO]: <darthfurry> art class[m
+[17:05:52] [Async Chat Thread - #0/INFO]: <osama> why[m
 
-[16:41:08] [Server thread/INFO]: VIIth has just earned the achievement [Time to Mine!]
-[16:41:14] [Async Chat Thread - #0/INFO]: <Seraphena_Dolard> server staying up?[m
+[17:05:57] [Async Chat Thread - #0/INFO]: <darthfurry> because thats cheating[m
 
-[16:41:18] [Async Chat Thread - #0/INFO]: <darthfurry> idk[m
+[17:06:15] [Server thread/INFO]: darthfurry issued server command: /give @p torch 64
+[17:06:15] [Server thread/INFO]: [darthfurry: Given [Torch] * 64 to darthfurry]
+[17:06:15] [Async Chat Thread - #0/INFO]: <osama> but you give somebody yesterday[m
 
-[16:41:19] [Async Chat Thread - #0/INFO]: <darthfurry> well see[m
+[17:06:19] [Async Chat Thread - #0/INFO]: <darthfurry> no that was a joke lol[m
 
-[16:41:22] [Server thread/INFO]: darthfurry lost connection: Disconnected
-[16:41:22] [Server thread/INFO]: darthfurry left the game.
-[16:41:32] [Thread-11/INFO]: UUID of player CharNees is d8348096-3162-358a-840e-ba4ce2177226
-[16:41:32] [Server thread/INFO]: CharNees[/[0:0:0:0:0:0:0:1]:50648] logged in with entity id 5522 at ([world]231.5, 64.0, 256.5)
-[16:41:43] [Server thread/INFO]: VIIth has just earned the achievement [Getting an Upgrade]
-[16:42:03] [Server thread/INFO]: CharNees lost connection: Login timed out!
-[16:42:03] [Server thread/INFO]: CharNees left the game.
-[16:42:03] [Server thread/WARN]: handleDisconnection() called twice
-[16:42:08] [Thread-12/INFO]: UUID of player CharNees is d8348096-3162-358a-840e-ba4ce2177226
-[16:42:08] [Server thread/INFO]: CharNees[/[0:0:0:0:0:0:0:1]:60868] logged in with entity id 5988 at ([world]231.97324995725106, 65.0, 256.99630913151054)
-[16:42:24] [Server thread/INFO]: VIIth has just earned the achievement [Hot Topic]
-[16:42:32] [Async Chat Thread - #1/INFO]: <CharNees> hallo fellow mcers[m
+[17:06:23] [Async Chat Thread - #0/INFO]: <darthfurry> it was dirt named "diamonds"[m
 
-[16:43:04] [Server thread/INFO]: VIIth has just earned the achievement [Time to Strike!]
-[16:43:18] [Server thread/INFO]: VIIth has just earned the achievement [Cow Tipper]
-[16:43:28] [Async Chat Thread - #1/INFO]: <CharNees> bros speedrunning[m
+[17:06:28] [Async Chat Thread - #0/INFO]: <osama> :(((([m
 
-[16:44:15] [Server thread/INFO]: [Server] hi
-[16:44:19] [Server thread/INFO]: [Server] im busy
-[16:44:20] [Async Chat Thread - #1/INFO]: <VIIth> hi[m
+[17:06:46] [Async Chat Thread - #0/INFO]: <osama> you are such a bad boy[m
 
-[16:44:20] [Async Chat Thread - #1/INFO]: <Seraphena_Dolard> its darth[m
+[17:06:47] [Async Chat Thread - #0/INFO]: <darthfurry> plus youve been a bad boy by trying to get those sharpness 6 swords unfairly >:([m
 
-[16:44:27] [Server thread/INFO]: [Server] ill see if i can stay but if i cant then the server might close
-[16:44:49] [Async Chat Thread - #1/INFO]: <CharNees> k[m
+[17:06:57] [Thread-9/INFO]: UUID of player Saitama is 6feef294-7e28-3497-bd05-86558cb1824d
+[17:06:57] [Server thread/INFO]: Saitama[/[0:0:0:0:0:0:0:1]:55652] logged in with entity id 4216 at ([world]225.5, 64.0, 251.5)
+[17:07:00] [Async Chat Thread - #0/INFO]: <darthfurry> sup[m
 
-[16:45:15] [Server thread/INFO]: Seraphena_Dolard issued server command: /tpa
-[16:45:18] [Server thread/INFO]: [Server] no
-[16:45:27] [Async Chat Thread - #1/INFO]: <Seraphena_Dolard> XD[m
+[17:07:04] [Async Chat Thread - #0/INFO]: <osama> :(((((([m
 
-[16:45:44] [Async Chat Thread - #1/INFO]: <CharNees> coords?[m
+[17:07:05] [Async Chat Thread - #0/INFO]: <bark_simmons> can u put difficulty to peaceful[m
 
-[16:46:38] [Server thread/INFO]: VIIth has just earned the achievement [Acquire Hardware]
-[16:46:40] [Server thread/INFO]: Seraphena_Dolard has just earned the achievement [Getting Wood]
-[16:46:44] [Server thread/INFO]: CharNees has just earned the achievement [Taking Inventory]
-[16:46:51] [Async Chat Thread - #2/INFO]: <Seraphena_Dolard> w char[m
+[17:07:10] [Async Chat Thread - #0/INFO]: <darthfurry> no?[m
 
-[16:46:58] [Async Chat Thread - #2/INFO]: <Seraphena_Dolard> *petpetpet*[m
+[17:07:14] [Async Chat Thread - #0/INFO]: <bark_simmons> im about to startve[m
 
-[16:47:06] [Async Chat Thread - #2/INFO]: <CharNees> thanks Seraphena Dolard[m
+[17:07:15] [Async Chat Thread - #0/INFO]: <osama> good boy[m
 
-[16:47:11] [Server thread/INFO]: VIIth has just earned the achievement [Monster Hunter]
-[16:47:18] [Async Chat Thread - #2/INFO]: <CharNees> BRO IS SPEEDRUNNING[m
+[17:07:20] [Async Chat Thread - #0/INFO]: <Saitama> is keeping inv on[m
 
-[16:47:28] [Async Chat Thread - #2/INFO]: <VIIth> not rl[m
+[17:07:22] [Async Chat Thread - #0/INFO]: <darthfurry> no[m
 
-[16:47:57] [Async Chat Thread - #2/INFO]: <Seraphena_Dolard> it didnt give me the hardware achiev but i have iron[m
+[17:07:28] [Async Chat Thread - #0/INFO]: <darthfurry> why would that be on[m
 
-[16:48:13] [Async Chat Thread - #2/INFO]: <CharNees> how[m
+[17:07:36] [Async Chat Thread - #0/INFO]: <Saitama> cuz people kill others for loot[m
 
-[16:48:23] [Async Chat Thread - #2/INFO]: <CharNees> are u using mouse[m
+[17:07:37] [Async Chat Thread - #0/INFO]: <osama> darth why are you furry[m
 
-[16:48:30] [Async Chat Thread - #2/INFO]: <Seraphena_Dolard> no[m
+[17:07:50] [Async Chat Thread - #0/INFO]: <darthfurry> thats a pretty mundane questino[m
+
+[17:08:00] [Async Chat Thread - #0/INFO]: <darthfurry> why do kpop fans like kpop[m
+
+[17:08:09] [Async Chat Thread - #0/INFO]: <osama> why?[m
+
+[17:08:11] [Async Chat Thread - #0/INFO]: <darthfurry> why do you like your favorite color[m
+
+[17:08:13] [Async Chat Thread - #0/INFO]: <Saitama> becuase they like men[m
+
+[17:08:15] [Async Chat Thread - #0/INFO]: <darthfurry> these questions are dumb[m
+
+[17:08:22] [Server thread/INFO]: Saitama has just earned the achievement [Taking Inventory]
+[17:08:22] [Async Chat Thread - #0/INFO]: <osama> why?[m
+
+[17:08:23] [Async Chat Thread - #0/INFO]: <darthfurry> im not gay :I[m
+
+[17:08:30] [Async Chat Thread - #0/INFO]: <Saitama> furry ug ot base?[m
+
+[17:08:33] [Async Chat Thread - #0/INFO]: <osama> u are gay ?[m
+
+[17:08:42] [Async Chat Thread - #0/INFO]: <darthfurry> no[m
+
+[17:08:43] [Async Chat Thread - #0/INFO]: <darthfurry> im not lol[m
+
+[17:08:45] [Async Chat Thread - #0/INFO]: <Saitama> u got base?[m
+
+[17:08:53] [Server thread/INFO]: osama hit the ground too hard
+[17:08:56] [Async Chat Thread - #0/INFO]: <darthfurry> yeah rq go to 29 999 999 100 299 999 999[m
+
+[17:08:59] [Async Chat Thread - #0/INFO]: <darthfurry> 29*[m
+
+[17:09:00] [Async Chat Thread - #0/INFO]: <Saitama> bruh[m
+
+[17:09:02] [Async Chat Thread - #0/INFO]: <osama> give me that sword[m
+
+[17:09:04] [Async Chat Thread - #0/INFO]: <darthfurry> no[m
+
+[17:09:07] [Async Chat Thread - #0/INFO]: <Saitama> thats[m
+
+[17:09:10] [Async Chat Thread - #0/INFO]: <Saitama> too far[m
+
+[17:09:12] [Async Chat Thread - #0/INFO]: <darthfurry> if i see that you somehow get it again[m
+
+[17:09:13] [Async Chat Thread - #0/INFO]: <darthfurry> im doing /kill[m
+
+[17:09:17] [Async Chat Thread - #0/INFO]: <osama> sharpness 6[m
+
+[17:09:23] [Async Chat Thread - #0/INFO]: <darthfurry> yeah im not giving you sharpness 6 for free :I[m
+
+[17:09:31] [Async Chat Thread - #0/INFO]: <Saitama> sharpness 6 is not a thing...[m
+
+[17:09:35] [Async Chat Thread - #0/INFO]: <darthfurry> if you want you can try to kill duck tax he has a sharp 6 sword bc he grinded for it[m
+
+[17:09:38] [Async Chat Thread - #0/INFO]: <osama> what do u want[m
+
+[17:09:49] [Async Chat Thread - #0/INFO]: <darthfurry> 2 blcoks of lapis a sharpness 5 diamond sword 2 blocks of redstone and 12 books[m
+
+[17:09:55] [Async Chat Thread - #0/INFO]: <Saitama> bro where base[m
+
+[17:10:00] [Async Chat Thread - #0/INFO]: <darthfurry> i dont really have one[m
+
+[17:10:12] [Async Chat Thread - #0/INFO]: <Saitama> bruh why is there[m
+
+[17:10:16] [Async Chat Thread - #0/INFO]: <Saitama> a huge block[m
+
+[17:10:19] [Async Chat Thread - #0/INFO]: <Saitama> of bedrock[m
+
+[17:10:20] [Async Chat Thread - #0/INFO]: <Saitama> in the sky[m
+
+[17:10:21] [Async Chat Thread - #0/INFO]: <darthfurry> oh right[m
+
+[17:10:24] [Async Chat Thread - #0/INFO]: <darthfurry> thats how u get sharp 6[m
+
+[17:10:24] [Async Chat Thread - #0/INFO]: <darthfurry> ignore that[m
+
+[17:10:29] [Async Chat Thread - #0/INFO]: <darthfurry> if you mess with anything im gonna ban you on the spot[m
+
+[17:10:29] [Async Chat Thread - #0/INFO]: <osama> wtf also you want a sharpness 7 swords[m
+
+[17:10:39] [Async Chat Thread - #0/INFO]: <darthfurry> sharpness 7 is twice the cost of sharpness 6[m
+
+[17:10:47] [Server thread/INFO]: Saitama has just earned the achievement [Getting Wood]
+[17:10:53] [Async Chat Thread - #0/INFO]: <darthfurry> so 1 sharpness 6 diamond sword 4 blocks of lapis 4 blocks of redstone 24 books and 40 levels[m
+
+[17:11:23] [Thread-10/INFO]: UUID of player hmmmmm is cbe5dfc7-80e3-3591-b432-f0e598c8c21c
+[17:11:23] [Server thread/INFO]: hmmmmm[/[0:0:0:0:0:0:0:1]:36770] logged in with entity id 8307 at ([world]161.20525874210713, 66.0, 294.4796176277195)
+[17:11:24] [Async Chat Thread - #0/INFO]: <osama> can you give me op[m
+
+[17:11:25] [Async Chat Thread - #0/INFO]: <darthfurry> no[m
+
+[17:11:30] [Async Chat Thread - #0/INFO]: <darthfurry> well i can[m
+
+[17:11:31] [Async Chat Thread - #0/INFO]: <osama> why[m
+
+[17:11:31] [Async Chat Thread - #0/INFO]: <darthfurry> but im not going to[m
+
+[17:11:37] [Async Chat Thread - #0/INFO]: <darthfurry> why would i give you op :I[m
+
+[17:11:43] [Async Chat Thread - #0/INFO]: <osama> i am good admin[m
+
+[17:11:45] [Async Chat Thread - #0/INFO]: <hmmmmm> bark and darth why ur skins changed[m
+
+[17:11:51] [Async Chat Thread - #0/INFO]: <darthfurry> my skin didnt change[m
+
+[17:11:53] [Async Chat Thread - #0/INFO]: <osama> i have play this games before[m
+
+[17:11:54] [Async Chat Thread - #0/INFO]: <Saitama> darth[m
+
+[17:11:58] [Async Chat Thread - #0/INFO]: <hmmmmm> oh nvm[m
+
+[17:11:59] [Async Chat Thread - #0/INFO]: <Saitama> can u explain whats this[m
+
+[17:12:04] [Async Chat Thread - #0/INFO]: <darthfurry> the bedrock box[m
+
+[17:12:06] [Async Chat Thread - #0/INFO]: <hmmmmm> just rendering problems[m
+
+[17:12:08] [Async Chat Thread - #0/INFO]: <Saitama> :/[m
+
+[17:12:13] [Async Chat Thread - #0/INFO]: <Saitama> whats that[m
+
+[17:12:13] [Server thread/INFO]: bark_simmons hit the ground too hard
+[17:12:16] [Async Chat Thread - #0/INFO]: <darthfurry> thats where the sharpness 6 command block store is[m
+
+[17:12:22] [Async Chat Thread - #0/INFO]: <darthfurry> i blocked it off so people dont exploit it[m
+
+[17:12:22] [Async Chat Thread - #0/INFO]: <Saitama> burh[m
+
+[17:12:25] [Async Chat Thread - #0/INFO]: <bark_simmons> NOOOOO[m
+
+[17:12:26] [Async Chat Thread - #0/INFO]: <darthfurry> ignore that[m
+
+[17:12:30] [Async Chat Thread - #0/INFO]: <bark_simmons> I HAVE NOTHING NOW[m
+
+[17:12:41] [Async Chat Thread - #0/INFO]: <Saitama> welp theres no keeping inventory[m
+
+[17:12:44] [Async Chat Thread - #0/INFO]: <Saitama> there goes nothing[m
+
+[17:12:44] [Async Chat Thread - #0/INFO]: <darthfurry> ye[m
+
+[17:12:44] [Async Chat Thread - #0/INFO]: <bark_simmons> WHY[m
+
+[17:12:45] [Server thread/INFO]: Saitama fell from a high place
+[17:12:57] [Async Chat Thread - #0/INFO]: <Saitama> ur skin is disgusting[m
+
+[17:13:00] [Async Chat Thread - #0/INFO]: <osama> darth give my stuff back[m
+
+[17:13:15] [Async Chat Thread - #0/INFO]: <Saitama> stop looking at my forehead[m
+
+[17:13:16] [Async Chat Thread - #0/INFO]: <bark_simmons> bro is not saitama[m
+
+[17:13:19] [Async Chat Thread - #0/INFO]: <hmmmmm> but bark ur skin is different[m
+
+[17:13:41] [Thread-11/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[17:13:41] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:40178] logged in with entity id 9826 at ([world]220.5, 64.0, 246.5)
+[17:13:44] [Async Chat Thread - #0/INFO]: <darthfurry> sup[m
+
+[17:13:48] [Async Chat Thread - #0/INFO]: <hmmmmm> so many new peoplw[m
+
+[17:13:51] [Server thread/INFO]: NinjaAnimates5 issued server command: /wsp
+[17:13:52] [Async Chat Thread - #0/INFO]: <darthfurry> ye[m
+
+[17:14:01] [Server thread/INFO]: bark_simmons was slain by Saitama
+[17:14:05] [Async Chat Thread - #0/INFO]: <hmmmmm> lol[m
+
+[17:14:06] [Async Chat Thread - #0/INFO]: <darthfurry> xd[m
+
+[17:14:12] [Server thread/INFO]: NinjaAnimates5 lost connection: Login timed out!
+[17:14:12] [Server thread/INFO]: NinjaAnimates5 left the game.
+[17:14:12] [Server thread/WARN]: handleDisconnection() called twice
+[17:14:14] [Async Chat Thread - #0/INFO]: <osama> he is saitama[m
+
+[17:14:18] [Thread-12/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[17:14:18] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:40034] logged in with entity id 10202 at ([world]220.99674127786668, 64.0, 246.6709073261691)
+[17:14:35] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[17:14:35] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[17:14:41] [Server thread/INFO]: darthfurry issued server command: /gamemode survival
+[17:14:41] [Server thread/INFO]: [darthfurry: Set own game mode to Survival Mode]
+[17:14:43] [Async Chat Thread - #0/INFO]: <osama> darth can you kill me[m
+
+[17:14:46] [Async Chat Thread - #0/INFO]: <darthfurry> why[m
+
+[17:14:48] [Server thread/INFO]: NinjaAnimates5 lost connection: Login timed out!
+[17:14:48] [Server thread/INFO]: NinjaAnimates5 left the game.
+[17:14:48] [Server thread/WARN]: handleDisconnection() called twice
+[17:14:51] [Async Chat Thread - #0/INFO]: <bark_simmons> a[m
+
+[17:14:56] [Async Chat Thread - #0/INFO]: <osama> i want to go to the spawn[m
+
+[17:14:57] [Async Chat Thread - #0/INFO]: <hmmmmm> ow[m
+
+[17:15:02] [Server thread/INFO]: Saitama was shot by Skeleton
+[17:15:04] [Async Chat Thread - #0/INFO]: <Saitama> lol[m
+
+[17:15:11] [Server thread/INFO]: bark_simmons lost connection: Internal Exception: java.net.SocketException: Connection reset
+[17:15:11] [Server thread/INFO]: bark_simmons left the game.
+[17:15:12] [Async Chat Thread - #0/INFO]: <Saitama> this is boring becuase keeping invotory not on[m
+
+[17:15:18] [Async Chat Thread - #0/INFO]: <darthfurry> how does that make it boring[m
+
+[17:15:20] [Async Chat Thread - #0/INFO]: <darthfurry> just dont be bad[m
+
+[17:15:21] [Async Chat Thread - #0/INFO]: <hmmmmm> food[m
+
+[17:15:24] [Thread-13/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[17:15:24] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:34018] logged in with entity id 10820 at ([world]220.99674127786668, 64.0, 246.6709073261691)
+[17:15:26] [Async Chat Thread - #0/INFO]: <hmmmmm> I NEED FOOD[m
+
+[17:15:26] [Async Chat Thread - #0/INFO]: <Saitama> bro all you do is kill others for loot[m
+
+[17:15:30] [Async Chat Thread - #0/INFO]: <darthfurry> nuh uh[m
+
+[17:15:35] [Async Chat Thread - #0/INFO]: <hmmmmm> he doesnt[m
+
+[17:15:36] [Async Chat Thread - #0/INFO]: <darthfurry> just dont die[m
+
+[17:15:48] [Async Chat Thread - #0/INFO]: <darthfurry> i never kill people directly[m
+
+[17:15:50] [Async Chat Thread - #0/INFO]: <Saitama> darth how about get better in hitbox?[m
+
+[17:15:54] [Server thread/INFO]: NinjaAnimates5 issued server command: /guys
+[17:15:54] [Server thread/INFO]: NinjaAnimates5 lost connection: Login timed out!
+[17:15:54] [Server thread/INFO]: NinjaAnimates5 left the game.
+[17:15:54] [Server thread/WARN]: handleDisconnection() called twice
+[17:15:57] [Async Chat Thread - #0/INFO]: <darthfurry> im already in the top 15ish :I[m
+
+[17:16:00] [Async Chat Thread - #0/INFO]: <Saitama> L[m
+
+[17:16:04] [Async Chat Thread - #0/INFO]: <Saitama> imagine not top 10[m
+
+[17:16:06] [Async Chat Thread - #0/INFO]: <darthfurry> how is taht an L[m
+
+[17:16:10] [Async Chat Thread - #0/INFO]: <darthfurry> youre deifnitely like bottom 4[m
+
+[17:16:15] [Async Chat Thread - #0/INFO]: <osama> darth can you tell me your password[m
+
+[17:16:18] [Async Chat Thread - #0/INFO]: <hmmmmm> its not like u have top 15[m
+
+[17:16:47] [Async Chat Thread - #0/INFO]: <Saitama> vex way better server owner[m
+
+[17:16:54] [Async Chat Thread - #0/INFO]: <darthfurry> dude he just turns keepinv on[m
+
+[17:16:58] [Async Chat Thread - #0/INFO]: <darthfurry> just a different style[m
+
+[17:17:04] [Async Chat Thread - #0/INFO]: <Saitama> at least i can fucking build[m
+
+[17:17:08] [Async Chat Thread - #0/INFO]: <darthfurry> youre just a baby for needing some little titty to hold on to[m
+
+[17:17:10] [Async Chat Thread - #0/INFO]: <darthfurry> you cant build at spawn[m
+
+[17:17:14] [Async Chat Thread - #0/INFO]: <Saitama> xd[m
+
+[17:17:14] [Server thread/INFO]: hmmmmm was slain by Zombie
+[17:17:17] [Async Chat Thread - #0/INFO]: <darthfurry> its broken[m
+
+[17:17:22] [Async Chat Thread - #0/INFO]: <Saitama> ask vex[m
+
+[17:17:24] [Async Chat Thread - #0/INFO]: <darthfurry> ignore that and just move like 20 blocks and boom you can build[m
+
+[17:17:26] [Async Chat Thread - #0/INFO]: <Saitama> i built him a whole city[m
+
+[17:17:29] [Async Chat Thread - #0/INFO]: <darthfurry> we use different server providers[m
+
+[17:17:40] [Server thread/INFO]: Saitama has just earned the achievement [Benchmarking]
+[17:17:41] [Server thread/INFO]: darthfurry issued server command: /give @p ladder
+[17:17:41] [Server thread/INFO]: [darthfurry: Given [Ladder] * 1 to darthfurry]
+[17:17:47] [Async Chat Thread - #0/INFO]: <osama> wich server host are u using[m
+
+[17:17:49] [Server thread/INFO]: Saitama has just earned the achievement [Time to Mine!]
+[17:18:00] [Async Chat Thread - #0/INFO]: <darthfurry> how did i find more iron than coal[m
+
+[17:18:07] [Async Chat Thread - #0/INFO]: <osama> darth[m
+
+[17:18:08] [Async Chat Thread - #0/INFO]: <darthfurry> what[m
+
+[17:18:11] [Async Chat Thread - #0/INFO]: <osama> wich server host are u using[m
+
+[17:18:13] [Thread-14/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[17:18:13] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:32934] logged in with entity id 11864 at ([world]220.99674127786668, 64.0, 246.6709073261691)
+[17:18:15] [Async Chat Thread - #0/INFO]: <Saitama> bruh this god damn zombie camping[m
+
+[17:18:19] [Async Chat Thread - #0/INFO]: <darthfurry> wouldnt you like to know[m
+
+[17:18:43] [Thread-15/INFO]: UUID of player Ellymental is 26c4e024-84c4-3179-8914-2b58102eb11b
+[17:18:43] [Server thread/INFO]: Ellymental[/[0:0:0:0:0:0:0:1]:46106] logged in with entity id 11981 at ([world]229.5, 64.0, 256.5)
+[17:18:46] [Async Chat Thread - #0/INFO]: <darthfurry> hi ele[m
+
+[17:18:47] [Async Chat Thread - #0/INFO]: <osama> just tell me[m
+
+[17:18:51] [Async Chat Thread - #0/INFO]: <hmmmmm> 6 people[m
+
+[17:18:52] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> hi[m
+
+[17:18:57] [Server thread/INFO]: Saitama has just earned the achievement [Getting an Upgrade]
+[17:18:59] [Async Chat Thread - #0/INFO]: <darthfurry> i forgot[m
+
+[17:19:02] [Async Chat Thread - #0/INFO]: <darthfurry> but its a differneto ne[m
+
+[17:19:12] [Server thread/INFO]: Saitama has just earned the achievement [Hot Topic]
+[17:19:13] [Server thread/INFO]: Ellymental lost connection: Login timed out!
+[17:19:13] [Server thread/INFO]: Ellymental left the game.
+[17:19:13] [Server thread/WARN]: handleDisconnection() called twice
+[17:19:13] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> hello?[m
+
+[17:19:19] [Server thread/INFO]: darthfurry issued server command: /give @p bed
+[17:19:19] [Server thread/INFO]: [darthfurry: Given [Bed] * 1 to darthfurry]
+[17:19:26] [Async Chat Thread - #0/INFO]: <darthfurry> yay im sleeping[m
+
+[17:19:28] [Async Chat Thread - #0/INFO]: <Saitama> :/ i can't burn wood with wood[m
+
+[17:19:31] [Async Chat Thread - #0/INFO]: <Saitama> gay ass physics[m
+
+[17:19:32] [Async Chat Thread - #0/INFO]: <osama> i am black[m
+
+[17:19:37] [Thread-16/INFO]: UUID of player Ellymental is 26c4e024-84c4-3179-8914-2b58102eb11b
+[17:19:37] [Server thread/INFO]: Ellymental[/[0:0:0:0:0:0:0:1]:44506] logged in with entity id 12363 at ([world]229.5, 64.0, 256.5)
+[17:19:37] [Async Chat Thread - #0/INFO]: <darthfurry> you can burn wood with wood[m
+
+[17:19:44] [Async Chat Thread - #0/INFO]: <Saitama> .[m
+
+[17:19:46] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> BRO GUYS ARE U IGNORING ME[m
+
+[17:19:50] [Async Chat Thread - #0/INFO]: <darthfurry> what do you want[m
+
+[17:19:51] [Async Chat Thread - #0/INFO]: <Saitama> stfu emo kid[m
+
+[17:20:00] [Async Chat Thread - #0/INFO]: <Ellymental> e[m
+
+[17:20:04] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> WHERE THE HELL ARE U[m
+
+[17:20:06] [Server thread/INFO]: darthfurry issued server command: /give @p carpet
+[17:20:06] [Server thread/INFO]: [darthfurry: Given [Carpet] * 1 to darthfurry]
+[17:20:08] [Async Chat Thread - #0/INFO]: <osama> i am from africa[m
+
+[17:20:09] [Async Chat Thread - #0/INFO]: <Saitama> ur mom's bed[m
+
+[17:20:09] [Server thread/INFO]: darthfurry issued server command: /give @p carpet
+[17:20:09] [Server thread/INFO]: [darthfurry: Given [Carpet] * 1 to darthfurry]
+[17:20:13] [Async Chat Thread - #0/INFO]: <hmmmmm> somewhere in the universe[m
+
+[17:20:13] [Async Chat Thread - #0/INFO]: <darthfurry> yo...[m
+
+[17:20:17] [Server thread/INFO]: NinjaAnimates5 issued server command: /tp @a
+[17:20:17] [Async Chat Thread - #0/INFO]: <osama> i would die if i dont eat[m
+
+[17:20:18] [Server thread/INFO]: darthfurry issued server command: /give @p carpet
+[17:20:18] [Server thread/INFO]: [darthfurry: Given [Carpet] * 1 to darthfurry]
+[17:20:20] [Async Chat Thread - #0/INFO]: <Saitama> fr[m
+
+[17:20:24] [Async Chat Thread - #0/INFO]: <Saitama> big back[m
+
+[17:20:26] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> idiot[m
+
+[17:20:27] [Async Chat Thread - #0/INFO]: <Saitama> all u know is to eat[m
+
+[17:20:29] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> bye[m
+
+[17:20:31] [Async Chat Thread - #0/INFO]: <darthfurry> bye[m
+
+[17:20:42] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> JUST HELP ME[m
+
+[17:20:45] [Async Chat Thread - #0/INFO]: <darthfurry> what do u want[m
+
+[17:20:48] [Async Chat Thread - #0/INFO]: <darthfurry> im like a thousand blocks from spawn[m
+
+[17:20:49] [Async Chat Thread - #0/INFO]: <Saitama> i have coords anyone come?[m
+
+[17:20:53] [Async Chat Thread - #0/INFO]: <hmmmmm> where u guys even at[m
+
+[17:21:01] [Async Chat Thread - #0/INFO]: <Saitama> x 285 y 64 z 346[m
+
+[17:21:02] [Server thread/INFO]: NinjaAnimates5 issued server command: /IKR
+[17:21:07] [Async Chat Thread - #0/INFO]: <Saitama> bro darth[m
+
+[17:21:08] [Async Chat Thread - #0/INFO]: <hmmmmm> darth where u[m
+
+[17:21:11] [Async Chat Thread - #0/INFO]: <darthfurry> im insanely far from that[m
+
+[17:21:14] [Thread-17/INFO]: UUID of player das is 57c851fd-399a-337a-98a5-d8f47c4bf0d1
+[17:21:15] [Server thread/INFO]: das[/[0:0:0:0:0:0:0:1]:44742] logged in with entity id 12945 at ([world]664.0277324105106, 85.95370054244995, -426.3546823859844)
+[17:21:16] [Server thread/INFO]: Ellymental has just earned the achievement [Taking Inventory]
+[17:21:16] [Server thread/INFO]: osama was blown up by Creeper
+[17:21:19] [Async Chat Thread - #0/INFO]: <darthfurry> hello das[m
+
+[17:21:20] [Async Chat Thread - #0/INFO]: <Saitama> if you don't turn keeping inv on then at least turn on the friendly fire[m
+
+[17:21:30] [Async Chat Thread - #0/INFO]: <darthfurry> turn on friendly fire[m
+
+[17:21:30] [Async Chat Thread - #0/INFO]: <darthfurry> what[m
+
+[17:21:34] [Async Chat Thread - #0/INFO]: <hmmmmm> why did i get cobble stone for no reason[m
+
+[17:21:35] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> WHY CANT I MINE[m
+
+[17:21:35] [Async Chat Thread - #0/INFO]: <Saitama> so we can't attack each other[m
+
+[17:21:40] [Async Chat Thread - #0/INFO]: <darthfurry> u mean turn off or what[m
+
+[17:21:44] [Async Chat Thread - #0/INFO]: <Saitama> turn on[m
+
+[17:21:45] [Server thread/INFO]: NinjaAnimates5 has just earned the achievement [Taking Inventory]
+[17:21:45] [Server thread/INFO]: das lost connection: Login timed out!
+[17:21:45] [Server thread/INFO]: das left the game.
+[17:21:45] [Server thread/WARN]: handleDisconnection() called twice
+[17:21:48] [Server thread/INFO]: osama was killed by Witch using magic
+[17:21:49] [Thread-18/INFO]: UUID of player das is 57c851fd-399a-337a-98a5-d8f47c4bf0d1
+[17:21:49] [Server thread/INFO]: das[/[0:0:0:0:0:0:0:1]:46366] logged in with entity id 13111 at ([world]664.2056001792942, 71.0, -426.65787924172554)
+[17:21:56] [Async Chat Thread - #0/INFO]: <hmmmmm> no no friendly fire[m
+
+[17:22:05] [Server thread/INFO]: das lost connection: Disconnected
+[17:22:05] [Server thread/INFO]: das left the game.
+[17:22:15] [Async Chat Thread - #0/INFO]: <darthfurry> why would i turn off pvp[m
+
+[17:22:22] [Async Chat Thread - #0/INFO]: <Saitama> bruh then they will keep fighting[m
+
+[17:22:26] [Async Chat Thread - #0/INFO]: <darthfurry> so what[m
+
+[17:22:27] [Async Chat Thread - #0/INFO]: <hmmmmm> this is spawn[m
+
+[17:22:33] [Async Chat Thread - #0/INFO]: <darthfurry> just leave spawn tbh[m
+
+[17:22:39] [Async Chat Thread - #0/INFO]: <hmmmmm> stop[m
+
+[17:22:41] [Async Chat Thread - #0/INFO]: <Saitama> bro then it's literally single player[m
+
+[17:22:45] [Thread-19/INFO]: UUID of player darth_furry is 56129867-87e3-3348-9129-578d3b31f77c
+[17:22:45] [Server thread/INFO]: darth_furry[/[0:0:0:0:0:0:0:1]:60774] logged in with entity id 13434 at ([world]227.5, 64.0, 247.5)
+[17:22:45] [Async Chat Thread - #0/INFO]: <darthfurry> nuh uh[m
+
+[17:22:47] [Async Chat Thread - #0/INFO]: <darthfurry> erm[m
+
+[17:22:47] [Async Chat Thread - #0/INFO]: <Saitama> if you don't have anyone to help[m
+
+[17:22:48] [Server thread/INFO]: darth_furry has just earned the achievement [Taking Inventory]
+[17:22:49] [Server thread/INFO]: darthfurry issued server command: /kick darth_furry
+[17:22:49] [Server thread/INFO]: darth_furry lost connection: Kicked by an operator.
+[17:22:49] [Server thread/INFO]: darth_furry left the game.
+[17:22:49] [Server thread/INFO]: [darthfurry: Kicked darth_furry from the game]
+[17:22:49] [Server thread/WARN]: handleDisconnection() called twice
+[17:22:54] [Async Chat Thread - #0/INFO]: <hmmmmm> ?[m
+
+[17:23:03] [Async Chat Thread - #0/INFO]: <darthfurry> i kicked the impostor[m
+
+[17:23:06] [Async Chat Thread - #0/INFO]: <hmmmmm> oh[m
+
+[17:23:12] [Async Chat Thread - #0/INFO]: <osama> such a bas boy[m
+
+[17:23:15] [Server thread/INFO]: NinjaAnimates5 has just earned the achievement [Getting Wood]
+[17:23:17] [Server thread/INFO]: NinjaAnimates5 was slain by Zombie
+[17:23:19] [Async Chat Thread - #0/INFO]: <darthfurry> whats a bas boy[m
+
+[17:23:27] [Async Chat Thread - #0/INFO]: <hmmmmm> that was prob that guy[m
+
+[17:23:31] [Async Chat Thread - #0/INFO]: <hmmmmm> i forgot his name[m
+
+[17:23:36] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> ME?[m
+
+[17:23:36] [Async Chat Thread - #0/INFO]: <darthfurry> ye ik who u mean[m
+
+[17:23:40] [Async Chat Thread - #0/INFO]: <darthfurry> not u[m
+
+[17:23:42] [Async Chat Thread - #0/INFO]: <osama> nah i am good bo[m
+
+[17:23:57] [Server thread/WARN]: osama was kicked for floating too long!
+[17:23:57] [Server thread/INFO]: osama lost connection: Flying is not enabled on this server
+[17:23:57] [Server thread/INFO]: osama left the game.
+[17:23:57] [Server thread/WARN]: handleDisconnection() called twice
+[17:24:07] [Async Chat Thread - #0/INFO]: <hmmmmm> does someone have saddles[m
+
+[17:24:11] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> yall wana meet[m
+
+[17:24:23] [Async Chat Thread - #0/INFO]: <darthfurry> theres a saddle at 29999999 100 29999999[m
+
+[17:24:25] [Async Chat Thread - #0/INFO]: <Saitama> thats like asking, wonna come and I kill you for loot?[m
+
+[17:24:36] [Async Chat Thread - #0/INFO]: <hmmmmm> thats not what he means bro[m
+
+[17:24:42] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> ik[m
+
+[17:24:43] [Async Chat Thread - #0/INFO]: <Saitama> bud u sure?[m
+
+[17:24:47] [Server thread/INFO]: NinjaAnimates5 issued server command: /yes
+[17:24:50] [Async Chat Thread - #0/INFO]: <NinjaAnimates5> yes[m
+
+[17:24:51] [Async Chat Thread - #0/INFO]: <hmmmmm> yes[m
+
+[17:24:53] [Server thread/INFO]: darthfurry issued server command: /give @p mushroom_soup 8
+[17:24:53] [Server thread/INFO]: [darthfurry: There is no such item with name minecraft:mushroom_soup]
+[17:24:54] [Async Chat Thread - #0/INFO]: <hmmmmm> very sure[m
+
+[17:24:55] [Async Chat Thread - #0/INFO]: <Saitama> i doubt[m
+
+[17:24:57] [Server thread/INFO]: darthfurry issued server command: /give @p mushroom_stew 8
+[17:24:57] [Server thread/INFO]: [darthfurry: Given [Mushroom Stew] * 8 to darthfurry]
+[17:25:41] [Server thread/INFO]: NinjaAnimates5 has just earned the achievement [Benchmarking]
+[17:26:33] [Async Chat Thread - #1/INFO]: <Saitama> do any of u hate birch[m
+
+[17:26:39] [Async Chat Thread - #1/INFO]: <darthfurry> for building or[m
+
+[17:26:44] [Async Chat Thread - #1/INFO]: <Saitama> any[m
+
+[17:26:46] [Async Chat Thread - #1/INFO]: <NinjaAnimates5> me[m
+
+[17:26:49] [Async Chat Thread - #1/INFO]: <hmmmmm> why do i have a bucket now[m
+
+[17:26:55] [Async Chat Thread - #1/INFO]: <Saitama> IM FUCKING FORCED TO USE BIRCH BECAUSE THATS ALL I HAVE[m
+
+[17:27:02] [Async Chat Thread - #1/INFO]: <hmmmmm> so[m
+
+[17:27:03] [Async Chat Thread - #1/INFO]: <darthfurry> just go to another biome[m
+
+[17:27:06] [Async Chat Thread - #1/INFO]: <hmmmmm> whats wrong with it[m
+
+[17:27:07] [Async Chat Thread - #1/INFO]: <Ellymental> birch is good though?[m
+
+[17:27:12] [Async Chat Thread - #1/INFO]: <Saitama> im in a whole bird[m
+
+[17:27:15] [Async Chat Thread - #1/INFO]: <Saitama> birch[m
+
+[17:27:17] [Async Chat Thread - #1/INFO]: <Saitama> area[m
+
+[17:27:19] [Server thread/INFO]: NinjaAnimates5 has just earned the achievement [Time to Mine!]
+[17:27:19] [Async Chat Thread - #1/INFO]: <hmmmmm> what is wrong with wood[m
+
+[17:27:24] [Async Chat Thread - #1/INFO]: <Saitama> im low on food[m
+
+[17:27:31] [Async Chat Thread - #1/INFO]: <hmmmmm> then go hunt[m
+
+[17:27:31] [Async Chat Thread - #1/INFO]: <darthfurry> make mushroom stew[m
+
+[17:27:31] [Async Chat Thread - #1/INFO]: <Ellymental> birch is a good wood though[m
+
+[17:27:32] [Async Chat Thread - #1/INFO]: <darthfurry> its easy[m
+
+[17:28:27] [Server thread/INFO]: NinjaAnimates5 issued server command: /msg hmmmmm bro whats ur coords
+[17:28:30] [Server thread/INFO]: NinjaAnimates5 issued server command: /help
+[17:28:30] [Async Chat Thread - #1/INFO]: <hmmmmm> bruh we need coal[m
+
+[17:28:38] [Async Chat Thread - #1/INFO]: <Saitama> i have 2 stacks...[m
+
+[17:28:39] [Thread-20/INFO]: UUID of player lilkash99_hitbox is fa6f8aca-2e9c-3987-82a6-e83695948df3
+[17:28:39] [Server thread/INFO]: lilkash99_hitbox[/[0:0:0:0:0:0:0:1]:55972] logged in with entity id 16954 at ([world]223.5, 64.0, 247.5)
+[17:28:44] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[17:28:44] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[17:28:52] [Async Chat Thread - #1/INFO]: <NinjaAnimates5> hmmmm whats ur coords[m
+
+[17:28:53] [Server thread/INFO]: darthfurry issued server command: /gamemode survival
+[17:28:53] [Server thread/INFO]: [darthfurry: Set own game mode to Survival Mode]
+[17:28:56] [Async Chat Thread - #1/INFO]: <Saitama> hmm u sure[m
+
+[17:29:04] [Async Chat Thread - #1/INFO]: <Saitama> 301 45 350[m
+
+[17:29:06] [Async Chat Thread - #1/INFO]: <darthfurry> afk[m
+
+[17:29:08] [Async Chat Thread - #1/INFO]: <hmmmmm> 178 58 288[m
+
+[17:29:27] [Server thread/INFO]: darthfurry lost connection: Disconnected
+[17:29:27] [Server thread/INFO]: darthfurry left the game.
+[17:29:30] [Async Chat Thread - #1/INFO]: <Saitama> bruh my pick broke when i found iron[m
+
+[17:29:35] [Async Chat Thread - #1/INFO]: <NinjaAnimates5> who is this person[m
+
+[17:29:53] [Async Chat Thread - #1/INFO]: <lilkash99_hitbox> the nether[m
+
+[17:30:05] [Server thread/INFO]: Saitama has just earned the achievement [Time to Strike!]
+[17:30:32] [Async Chat Thread - #1/INFO]: <Saitama> u coming?[m
+
+[17:30:38] [Async Chat Thread - #1/INFO]: <NinjaAnimates5> say ur coords but msg me[m
+
+[17:30:44] [Async Chat Thread - #1/INFO]: <Saitama> whisper?[m
+
+[17:30:46] [Server thread/INFO]: Saitama issued server command: /whisper
+[17:30:49] [Server thread/INFO]: Saitama issued server command: /help
+[17:30:50] [Async Chat Thread - #1/INFO]: <NinjaAnimates5> ye[m
+
+[17:30:51] [Async Chat Thread - #1/INFO]: <hmmmmm> its called tell[m
+
+[17:30:58] [Async Chat Thread - #1/INFO]: <Saitama> then wut[m
+
+[17:31:02] [Async Chat Thread - #1/INFO]: <Saitama> this game's command are weird[m
+
+[17:31:14] [Server thread/INFO]: NinjaAnimates5 issued server command: /tell Saitama does it work
+[17:31:22] [Server thread/INFO]: Saitama issued server command: /whisper NinjaAnimates5 yes
+[17:31:24] [Server thread/INFO]: Saitama issued server command: /help
+[17:31:25] [Server thread/INFO]: lilkash99_hitbox has just earned the achievement [Taking Inventory]
+[17:31:29] [Server thread/INFO]: Saitama issued server command: /tell NinjaAnimates5 yes
+[17:31:31] [Async Chat Thread - #1/INFO]: <Saitama> bruh[m
+
+[17:31:39] [Async Chat Thread - #1/INFO]: <Saitama> ur name too long[m
+
+[17:31:40] [Async Chat Thread - #1/INFO]: <Saitama> :/[m
+
+[17:31:44] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:31:44] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:31:48] [Server thread/INFO]: NinjaAnimates5 issued server command: /tell Saitama the coords?
+[17:31:51] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:31:52] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:31:58] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:31:58] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:31:59] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:31:59] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:00] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:00] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:00] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:00] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:01] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:01] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:01] [Server thread/INFO]: Saitama issued server command: /tell Ninjaanimates5 304 38 350
+[17:32:02] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:03] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:03] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:03] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:03] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:05] [Server thread/INFO]: Saitama issued server command: /tell Ninjaanimates5 im undergrounds
+[17:32:13] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:16] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:16] [Server thread/WARN]: lilkash99_hitbox moved wrongly!
+[17:32:18] [Async Chat Thread - #1/INFO]: <hmmmmm> and i cant xray[m
+
+[17:32:18] [Server thread/INFO]: NinjaAnimates5 issued server command: /tell Saitama k
+[17:32:20] [Async Chat Thread - #1/INFO]: <hmmmmm> great[m
+
+[17:32:30] [Server thread/INFO]: lilkash99_hitbox issued server command: /
+[17:32:35] [Server thread/INFO]: lilkash99_hitbox issued server command: /help
+[17:32:42] [Server thread/INFO]: Saitama issued server command: /tell Ninjaanimates5 u close?
+[17:32:57] [Server thread/INFO]: NinjaAnimates5 issued server command: /tell Saitama idk
+[17:33:24] [Server thread/INFO]: NinjaAnimates5 issued server command: /tell Saitama yes
+[17:33:27] [Async Chat Thread - #2/INFO]: <Saitama> does anyone want gold[m
+
+[17:33:27] [Async Chat Thread - #2/INFO]: <Saitama> xd[m
+
+[17:33:38] [Async Chat Thread - #2/INFO]: <hmmmmm> ig darth[m
+
+[17:33:47] [Async Chat Thread - #2/INFO]: <hmmmmm> he just wants notch apples[m
+
+[17:33:52] [Async Chat Thread - #2/INFO]: <Saitama> fr[m
+
+[17:34:15] [Async Chat Thread - #2/INFO]: <Saitama> im finding so much iron[m
+
+[17:34:28] [Async Chat Thread - #2/INFO]: <Saitama> already 1 stack[m
+
+[17:35:03] [Server thread/INFO]: Saitama has just earned the achievement [Monster Hunter]
+[17:35:27] [Server thread/INFO]: Saitama issued server command: /tell Ninjaanimates5 u there?
+[17:35:41] [Server thread/INFO]: NinjaAnimates5 was slain by Spider
+[17:35:43] [Async Chat Thread - #3/INFO]: <Saitama> :/[m
+
+[17:36:04] [Server thread/INFO]: hmmmmm has just earned the achievement [Hot Topic]
+[17:36:07] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> x ray isnt bad because you need to get progress so it technicly isnt bad[m
+
+[17:36:08] [Server thread/INFO]: NinjaAnimates5 issued server command: /tell Saitama im closer
+[17:36:12] [Server thread/INFO]: Saitama issued server command: /tell Ninjaanimates5 ok
+[17:36:44] [Async Chat Thread - #3/INFO]: <Ellymental> the morality of x-raying[m
+
+[17:36:47] [Async Chat Thread - #3/INFO]: <Saitama> how[m
+
+[17:36:57] [Server thread/INFO]: lilkash99_hitbox was slain by Spider
+[17:37:08] [Async Chat Thread - #3/INFO]: <hmmmmm> oh i didnt know u were even here[m
+
+[17:37:19] [Server thread/INFO]: hmmmmm has just earned the achievement [Acquire Hardware]
+[17:37:36] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> yoo[m
+
+[17:37:39] [Async Chat Thread - #3/INFO]: <Saitama> :/[m
+
+[17:37:53] [Async Chat Thread - #3/INFO]: <Saitama> cave mans[m
+
+[17:37:54] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> im at half a heart[m
+
+[17:37:54] [Async Chat Thread - #3/INFO]: <Saitama> lol[m
+
+[17:37:56] [Async Chat Thread - #3/INFO]: <Saitama> fr[m
+
+[17:38:10] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> can i have a picaxe[m
+
+[17:38:12] [Async Chat Thread - #3/INFO]: <Saitama> heres a rabbit[m
+
+[17:38:15] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> bro[m
+
+[17:38:38] [Async Chat Thread - #3/INFO]: <Saitama> here[m
+
+[17:38:47] [Async Chat Thread - #3/INFO]: <Saitama> i gaved u pickaxe[m
+
+[17:38:53] [Server thread/INFO]: Ellymental has just earned the achievement [Getting Wood]
+[17:38:55] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> thx[m
+
+[17:38:57] [Async Chat Thread - #3/INFO]: <Saitama> ninja press M[m
+
+[17:39:05] [Server thread/INFO]: NinjaAnimates5 issued server command: /M
+[17:39:08] [Server thread/INFO]: NinjaAnimates5 issued server command: /ok
+[17:39:12] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> ok[m
+
+[17:39:14] [Async Chat Thread - #3/INFO]: <Saitama> why u look so dubm[m
+
+[17:39:15] [Async Chat Thread - #3/INFO]: <Saitama> dumb[m
+
+[17:39:17] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:39:19] [Server thread/INFO]: lilkash99_hitbox issued server command: /
+[17:39:21] [Async Chat Thread - #3/INFO]: <Saitama> lol[m
+
+[17:39:31] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> FLINT AND STEEL[m
+
+[17:39:35] [Async Chat Thread - #3/INFO]: <Saitama> :/[m
+
+[17:39:37] [Async Chat Thread - #3/INFO]: <Saitama> be quiet women[m
+
+[17:39:45] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> ill go mining[m
+
+[17:39:49] [Async Chat Thread - #3/INFO]: <Saitama> ok[m
+
+[17:39:56] [Async Chat Thread - #3/INFO]: <Saitama> here[m
+
+[17:39:58] [Async Chat Thread - #3/INFO]: <Saitama> eat rabbit[m
+
+[17:40:13] [Async Chat Thread - #3/INFO]: <Saitama> :)[m
+
+[17:40:26] [Server thread/INFO]: Saitama has just earned the achievement [Acquire Hardware]
+[17:40:31] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> how do i eat??[m
+
+[17:40:32] [Server thread/INFO]: lilkash99_hitbox was blown up by Creeper
+[17:40:33] [Server thread/INFO]: NinjaAnimates5 issued server command: /um
+[17:40:35] [Async Chat Thread - #3/INFO]: <Saitama> uh[m
+
+[17:40:39] [Async Chat Thread - #3/INFO]: <Saitama> do u hav emouse[m
+
+[17:40:40] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:42] [Async Chat Thread - #3/INFO]: <Saitama> do u have a mouse[m
+
+[17:40:44] [Async Chat Thread - #3/INFO]: <Ellymental> right click to eat[m
+
+[17:40:44] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:45] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:46] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:46] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:47] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:48] [Async Chat Thread - #3/INFO]: <Ellymental> or double click on a trackpad[m
+
+[17:40:48] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:48] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> yes[m
+
+[17:40:49] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:49] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:50] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:50] [Async Chat Thread - #3/INFO]: <hmmmmm> hold rightclick[m
+
+[17:40:51] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> THE NETHER[m
+
+[17:40:53] [Async Chat Thread - #3/INFO]: <hmmmmm> BRO STOP[m
+
+[17:40:54] [Async Chat Thread - #3/INFO]: <Saitama> right click[m
+
+[17:40:57] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> FLINT AND STEEL[m
+
+[17:40:58] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> FLINT AND STEEL[m
+
+[17:40:58] [Async Chat Thread - #3/INFO]: <Saitama> or you do alt+click[m
+
+[17:40:59] [Server thread/INFO]: lilkash99_hitbox issued server command: /
+[17:41:00] [Server thread/INFO]: lilkash99_hitbox issued server command: /
+[17:41:00] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> ban him[m
+
+[17:41:04] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> pls[m
+
+[17:41:08] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> no[m
+
+[17:41:15] [Async Chat Thread - #3/INFO]: <Saitama> xd[m
+
+[17:41:22] [Thread-21/INFO]: UUID of player darthfurry is 4db55e70-ab71-3b7a-9b39-527e1037b9fd
+[17:41:22] [Server thread/INFO]: darthfurry[/[0:0:0:0:0:0:0:1]:52228] logged in with entity id 20946 at ([world]861.6999999880791, 4.0, -87.57952365474078)
+[17:41:31] [Async Chat Thread - #3/INFO]: <darthfurry> so many pepl[m
+
+[17:41:34] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> T_T[m
+
+[17:41:36] [Async Chat Thread - #3/INFO]: <hmmmmm> YES[m
+
+[17:41:45] [Server thread/INFO]: Saitama issued server command: /tell Ninjaanimates5 ill be back in a few minutes
+[17:41:47] [Async Chat Thread - #3/INFO]: <hmmmmm> oops cap locks[m
+
+[17:41:51] [Async Chat Thread - #3/INFO]: <Saitama> ill be back guys[m
+
+[17:41:57] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> k[m
+
+[17:41:59] [Async Chat Thread - #3/INFO]: <Saitama> darth is gay as always[m
+
+[17:42:01] [Async Chat Thread - #3/INFO]: <Saitama> jk[m
+
+[17:42:03] [Async Chat Thread - #3/INFO]: <darthfurry> im not I:[m
+
+[17:42:06] [Async Chat Thread - #3/INFO]: <Saitama> xd[m
+
+[17:42:08] [Async Chat Thread - #3/INFO]: <Saitama> ok brb[m
+
+[17:42:10] [Server thread/INFO]: Saitama lost connection: Internal Exception: java.net.SocketException: Connection reset
+[17:42:10] [Server thread/INFO]: Saitama left the game.
+[17:42:38] [Async Chat Thread - #3/INFO]: <darthfurry> should i make a hole through bedrock[m
+
+[17:42:42] [Async Chat Thread - #3/INFO]: <hmmmmm> yes[m
+
+[17:42:47] [Async Chat Thread - #3/INFO]: <darthfurry> why though[m
+
+[17:42:53] [Async Chat Thread - #3/INFO]: <hmmmmm> idk[m
+
+[17:42:59] [Thread-22/INFO]: UUID of player Saitama is 6feef294-7e28-3497-bd05-86558cb1824d
+[17:42:59] [Server thread/INFO]: Saitama[/[0:0:0:0:0:0:0:1]:34040] logged in with entity id 21556 at ([world]287.08318218208063, 64.0, 347.98365733766485)
+[17:43:08] [Async Chat Thread - #3/INFO]: <Saitama> ok[m
+
+[17:43:23] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> how do i get back up?[m
+
+[17:43:25] [Async Chat Thread - #3/INFO]: <Saitama> uh[m
+
+[17:43:28] [Async Chat Thread - #3/INFO]: <Saitama> :/[m
+
+[17:43:33] [Async Chat Thread - #3/INFO]: <Saitama> just keep minning[m
+
+[17:43:36] [Async Chat Thread - #3/INFO]: <Saitama> ill come down[m
+
+[17:43:48] [Async Chat Thread - #3/INFO]: <hmmmmm> afk[m
+
+[17:43:49] [Server thread/INFO]: hmmmmm lost connection: Disconnected
+[17:43:49] [Server thread/INFO]: hmmmmm left the game.
+[17:43:51] [Server thread/INFO]: darthfurry issued server command: /give @p diamond_ore 8
+[17:43:51] [Server thread/INFO]: [darthfurry: Given [Diamond Ore] * 8 to darthfurry]
+[17:44:07] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> come now im lost[m
+
+[17:44:12] [Async Chat Thread - #3/INFO]: <Saitama> fr[m
+
+[17:44:17] [Async Chat Thread - #3/INFO]: <darthfurry> DIAMONDES[m
+
+[17:44:21] [Async Chat Thread - #3/INFO]: <Saitama> :/[m
+
+[17:44:24] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> yea[m
+
+[17:44:31] [Async Chat Thread - #3/INFO]: <Saitama> darth kys[m
+
+[17:44:35] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> i found iron[m
+
+[17:44:40] [Async Chat Thread - #3/INFO]: <Ellymental> why is there bedrock in the sky[m
+
+[17:44:40] [Async Chat Thread - #3/INFO]: <darthfurry> why[m
+
+[17:44:45] [Async Chat Thread - #3/INFO]: <darthfurry> ele thats for sharpness 6 sword giving[m
+
+[17:44:46] [Async Chat Thread - #3/INFO]: <darthfurry> ignore it[m
+
+[17:44:49] [Async Chat Thread - #3/INFO]: <Saitama> im scared to even get near other people[m
+
+[17:44:50] [Async Chat Thread - #3/INFO]: <darthfurry> if u mess with things itll say something in chat[m
+
+[17:44:54] [Async Chat Thread - #3/INFO]: <Saitama> bro[m
+
+[17:45:01] [Async Chat Thread - #3/INFO]: <Saitama> im not going to meet with any of u[m
+
+[17:45:05] [Async Chat Thread - #3/INFO]: <Saitama> u literally have sharpness 6[m
+
+[17:45:09] [Async Chat Thread - #3/INFO]: <darthfurry> huh[m
+
+[17:45:11] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> can u help me[m
+
+[17:45:11] [Async Chat Thread - #3/INFO]: <Saitama> thats like 2 shotw[m
+
+[17:45:19] [Async Chat Thread - #3/INFO]: <Ellymental> darth, this bedrock thing is scaring me ;~;[m
+
+[17:45:22] [Async Chat Thread - #3/INFO]: <darthfurry> diamond sword with sharpness 5 does 9 hearts in a hit[m
+
+[17:45:22] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> i need torch[m
+
+[17:45:23] [Async Chat Thread - #3/INFO]: <darthfurry> so uh[m
+
+[17:45:31] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> now that i think about it i might be cooke[m
+
+[17:45:35] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> d[m
+
+[17:45:35] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> thx[m
+
+[17:45:57] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> here[m
+
+[17:45:59] [Async Chat Thread - #3/INFO]: <darthfurry> hmmm[m
+
+[17:46:15] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> i will not remember my password[m
+
+[17:46:17] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> bro[m
+
+[17:46:19] [Async Chat Thread - #3/INFO]: <Saitama> fr[m
+
+[17:46:27] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> its evel guy[m
+
+[17:46:42] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> oh shit[m
+
+[17:46:52] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> sam[m
+
+[17:47:01] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> here[m
+
+[17:47:03] [Server thread/INFO]: lilkash99_hitbox issued server command: /i shouldnt of said that
+[17:47:04] [Async Chat Thread - #3/INFO]: <Saitama> wut[m
+
+[17:47:09] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> YOUR IRON[m
+
+[17:47:13] [Async Chat Thread - #3/INFO]: <Saitama> THATS YOURS[m
+
+[17:47:28] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> i was going to give it to u[m
+
+[17:47:39] [Async Chat Thread - #3/INFO]: <darthfurry> finally i have full iron again[m
+
+[17:47:47] [Async Chat Thread - #3/INFO]: <Saitama> only?[m
+
+[17:47:54] [Async Chat Thread - #3/INFO]: <darthfurry> ehy[m
+
+[17:47:55] [Async Chat Thread - #3/INFO]: <darthfurry> hey[m
+
+[17:48:06] [Async Chat Thread - #3/INFO]: <darthfurry> someone accidentally killed me in the nether because of the piglins aggroing on me for no reason[m
+
+[17:48:09] [Async Chat Thread - #3/INFO]: <Saitama> L[m
+
+[17:48:11] [Async Chat Thread - #3/INFO]: <darthfurry> i got reset ive been on this life for like 5 minutes total[m
+
+[17:48:19] [Async Chat Thread - #3/INFO]: <darthfurry> you know what else is L[m
+
+[17:48:22] [Async Chat Thread - #3/INFO]: <Saitama> :/[m
+
+[17:48:22] [Server thread/INFO]: darthfurry issued server command: /clear saitama dirt
+[17:48:22] [Server thread/INFO]: [darthfurry: Could not clear the inventory of Saitama, no items to remove]
+[17:48:23] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> how do i get up[m
+
+[17:48:23] [Async Chat Thread - #3/INFO]: <Saitama> a kick[m
+
+[17:48:27] [Async Chat Thread - #3/INFO]: <Saitama> or ban[m
+
+[17:48:34] [Async Chat Thread - #3/INFO]: <darthfurry> no i cleared all dirt from your inventory if you had any[m
+
+[17:48:39] [Async Chat Thread - #3/INFO]: <Saitama> NOO[m
+
+[17:48:41] [Async Chat Thread - #3/INFO]: <Saitama> I HAD 2 STACK[m
+
+[17:48:43] [Async Chat Thread - #3/INFO]: <Saitama> BRUH[m
+
+[17:48:57] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> LET ME GET UP[m
+
+[17:49:00] [Async Chat Thread - #3/INFO]: <Saitama> -_-[m
+
+[17:49:04] [Async Chat Thread - #3/INFO]: <Saitama> i literally showed u[m
+
+[17:49:18] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> no u didnt[m
+
+[17:49:27] [Async Chat Thread - #3/INFO]: <Saitama> just keep minnign[m
+
+[17:49:34] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> I AM LOST[m
+
+[17:49:37] [Async Chat Thread - #3/INFO]: <Saitama> bruh[m
+
+[17:49:44] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> JUST HELP[m
+
+[17:49:54] [Async Chat Thread - #3/INFO]: <Saitama> use your monkey brain and think[m
+
+[17:50:07] [Thread-23/INFO]: UUID of player osama is a47790d8-daeb-3ae6-afe1-19897aaaee79
+[17:50:07] [Server thread/INFO]: osama[/[0:0:0:0:0:0:0:1]:50738] logged in with entity id 24235 at ([world]155.02704494339866, 83.60000085830688, 282.8857553574581)
+[17:50:14] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> ok byr[m
+
+[17:50:15] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> wtf[m
+
+[17:50:15] [Async Chat Thread - #3/INFO]: <Ellymental> i found a zombie spawner[m
+
+[17:50:18] [Async Chat Thread - #3/INFO]: <Saitama> .[m
+
+[17:50:19] [Async Chat Thread - #3/INFO]: <darthfurry> nice[m
+
+[17:50:21] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> imma lea[m
+
+[17:50:23] [Async Chat Thread - #3/INFO]: <darthfurry> love that for ya[m
+
+[17:50:23] [Async Chat Thread - #3/INFO]: <Saitama> ill come[m
+
+[17:50:24] [Async Chat Thread - #3/INFO]: <Ellymental> -18 52 198[m
+
+[17:50:41] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> the zombie doesnt attack[m
+
+[17:50:47] [Async Chat Thread - #3/INFO]: <Saitama> where u go[m
+
+[17:50:48] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> that means[m
+
+[17:50:56] [Async Chat Thread - #3/INFO]: <Saitama> come[m
+
+[17:50:58] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[17:50:58] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[17:51:03] [Server thread/INFO]: osama lost connection: Disconnected
+[17:51:03] [Server thread/INFO]: osama left the game.
+[17:51:05] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> im friends with the zombie[m
+
+[17:51:08] [Server thread/INFO]: lilkash99_hitbox was slain by Zombie
+[17:51:10] [Async Chat Thread - #3/INFO]: <Saitama> L[m
+
+[17:51:12] [Async Chat Thread - #3/INFO]: <Saitama> LMAO[m
+
+[17:51:23] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> bro[m
+
+[17:51:30] [Async Chat Thread - #3/INFO]: <lilkash99_hitbox> i moved a inch[m
+
+[17:51:33] [Async Chat Thread - #3/INFO]: <Saitama> L[m
+
+[17:52:02] [Async Chat Thread - #3/INFO]: <NinjaAnimates5> im low[m
+
+[17:52:05] [Async Chat Thread - #3/INFO]: <Saitama> ok[m
+
+[17:52:11] [Async Chat Thread - #3/INFO]: <Saitama> i need to solve this food problem[m
+
+[17:53:36] [Server thread/INFO]: darthfurry issued server command: /give @p soul_sand 64
+[17:53:36] [Server thread/INFO]: [darthfurry: Given [Soul Sand] * 64 to darthfurry]
+[17:53:44] [Async Chat Thread - #4/INFO]: <darthfurry> so hru guys doing[m
+
+[17:53:49] [Async Chat Thread - #4/INFO]: <Saitama> i wish theres shield[m
+
+[17:54:01] [Async Chat Thread - #4/INFO]: <darthfurry> you can block with swords[m
+
+[17:54:08] [Async Chat Thread - #4/INFO]: <Saitama> :/ it don't work like shield[m
+
+[17:54:12] [Async Chat Thread - #4/INFO]: <darthfurry> fair enough[m
+
+[17:54:15] [Async Chat Thread - #4/INFO]: <NinjaAnimates5> imma get some wood[m
+
+[17:54:23] [Async Chat Thread - #4/INFO]: <Saitama> ok[m
+
+[17:54:38] [Server thread/INFO]: NinjaAnimates5 lost connection: Disconnected
+[17:54:38] [Server thread/INFO]: NinjaAnimates5 left the game.
+[17:54:46] [Async Chat Thread - #4/INFO]: <Saitama> ill brb[m
+
+[17:54:46] [Server thread/INFO]: darthfurry issued server command: /give @p blaze_rod 18
+[17:54:46] [Server thread/INFO]: [darthfurry: Given [Blaze Rod] * 18 to darthfurry]
+[17:54:51] [Server thread/INFO]: darthfurry issued server command: /gamerule sendCommandFeedback false
+[17:54:51] [Server thread/INFO]: [darthfurry: Game rule has been updated]
+[17:54:52] [Async Chat Thread - #4/INFO]: <Saitama> darth u gonna host this server for how long[m
+
+[17:54:54] [Async Chat Thread - #4/INFO]: <darthfurry> how do i set this up[m
+
+[17:54:56] [Async Chat Thread - #4/INFO]: <darthfurry> idk[m
+
+[17:55:04] [Async Chat Thread - #4/INFO]: <Saitama> brb in like 30 min[m
+
+[17:55:07] [Async Chat Thread - #4/INFO]: <darthfurry> not too much longer rn bc gotta do laundry soon[m
+
+[17:55:07] [Async Chat Thread - #4/INFO]: <darthfurry> o[m
+
+[17:55:10] [Async Chat Thread - #4/INFO]: <Saitama> ok[m
+
+[17:55:14] [Async Chat Thread - #4/INFO]: <darthfurry> ill be back online by then probably so[m
+
+[17:55:14] [Async Chat Thread - #4/INFO]: <Saitama> just leave the server online[m
+
+[17:55:16] [Server thread/INFO]: Saitama lost connection: Disconnected
+[17:55:16] [Server thread/INFO]: Saitama left the game.
+[17:55:41] [Async Chat Thread - #4/INFO]: <lilkash99_hitbox> Y-Y[m
+
+[17:55:57] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[17:55:57] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[17:56:08] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[17:56:08] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[17:56:25] [Server thread/INFO]: darthfurry issued server command: /tp @p 830 99 30
+[17:56:25] [Server thread/INFO]: [darthfurry: Teleported darthfurry to 830.5, 99.0, 30.5]
+[17:56:33] [Async Chat Thread - #4/INFO]: <lilkash99_hitbox> onion[m
+
+[17:56:39] [Async Chat Thread - #4/INFO]: <lilkash99_hitbox> C>[m
+
+[17:56:43] [Server thread/INFO]: darthfurry issued server command: /gamemode survival
+[17:56:43] [Server thread/INFO]: [darthfurry: Set own game mode to Survival Mode]
+[17:56:46] [Async Chat Thread - #4/INFO]: <darthfurry> looks like a bunion[m
+
+[17:56:52] [Async Chat Thread - #4/INFO]: <Ellymental> idk about yall but i feel quite rich[m
+
+[17:56:56] [Async Chat Thread - #4/INFO]: <darthfurry> how much iron u have[m
+
+[17:57:04] [Async Chat Thread - #4/INFO]: <darthfurry> i prob have more ngl[m
+
+[17:57:08] [Async Chat Thread - #4/INFO]: <Ellymental> 23, a lot more is still smelting[m
+
+[17:57:08] [Async Chat Thread - #4/INFO]: <lilkash99_hitbox> (>[m
+
+[17:57:12] [Async Chat Thread - #4/INFO]: <lilkash99_hitbox> onion[m
+
+[17:57:14] [Async Chat Thread - #4/INFO]: <darthfurry> i have a stack and 23[m
+
+[17:57:16] [Async Chat Thread - #4/INFO]: <Ellymental> green onion[m
+
+[17:57:17] [Async Chat Thread - #4/INFO]: <darthfurry> o rmore[m
+
+[17:57:17] [Async Chat Thread - #4/INFO]: <Ellymental> nice[m
+
+[17:57:21] [Async Chat Thread - #4/INFO]: <lilkash99_hitbox> (>[m
+
+[17:57:28] [Async Chat Thread - #4/INFO]: <lilkash99_hitbox> onion[m
+
+[17:57:33] [Async Chat Thread - #4/INFO]: <Ellymental> i have a projectile protection book iv[m
+
+[17:57:35] [Async Chat Thread - #4/INFO]: <darthfurry> i have a stack and 27 :3[m
+
+[17:57:37] [Async Chat Thread - #4/INFO]: <lilkash99_hitbox> (>[m
+
+[17:57:38] [Async Chat Thread - #4/INFO]: <darthfurry> thats kinda mid[m
+
+[17:57:43] [Async Chat Thread - #4/INFO]: <Ellymental> ik but it's cool[m
+
+[17:57:50] [Async Chat Thread - #4/INFO]: <Ellymental> i also have a music disc to[m
+
+[17:57:51] [Async Chat Thread - #4/INFO]: <Ellymental> oo*[m
+
+[17:57:53] [Async Chat Thread - #4/INFO]: <Ellymental> too*[m
+
+[17:57:54] [Async Chat Thread - #4/INFO]: <darthfurry> nice[m
+
+[17:58:06] [Async Chat Thread - #4/INFO]: <Ellymental> i also have four mushroom soup[m
+
+[17:58:17] [Async Chat Thread - #4/INFO]: <darthfurry> nice[m
+
+[17:58:18] [Async Chat Thread - #4/INFO]: <darthfurry> i have 8[m
+
+[17:58:19] [Async Chat Thread - #4/INFO]: <Ellymental> i mean three mushroom soup i drank one of them[m
+
+[17:58:56] [Async Chat Thread - #4/INFO]: <darthfurry> cool i have 1 level now[m
+
+[17:58:57] [Async Chat Thread - #4/INFO]: <darthfurry> i wasted 18[m
+
+[17:59:13] [Async Chat Thread - #4/INFO]: <darthfurry> i rlly need to make a xp farm again[m
+
+[17:59:27] [Async Chat Thread - #4/INFO]: <Ellymental> i have the location of a zombie spawner[m
+
+[17:59:34] [Async Chat Thread - #4/INFO]: <Ellymental> -14 52 200[m
+
+[17:59:38] [Async Chat Thread - #4/INFO]: <darthfurry> im so far from ther[m
+
+[17:59:40] [Async Chat Thread - #4/INFO]: <darthfurry> e[m
+
+[17:59:42] [Async Chat Thread - #4/INFO]: <Ellymental> oh[m
+
+[17:59:54] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[17:59:54] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[18:00:00] [Server thread/INFO]: darthfurry issued server command: /give @p minecart
+[18:00:00] [Server thread/INFO]: [darthfurry: Given [Minecart] * 1 to darthfurry]
+[18:00:01] [Server thread/INFO]: darthfurry issued server command: /give @p rail
+[18:00:01] [Server thread/INFO]: [darthfurry: Given [Rail] * 1 to darthfurry]
+[18:00:05] [Server thread/INFO]: darthfurry issued server command: /give @p oak_leaves
+[18:00:05] [Server thread/INFO]: [darthfurry: There is no such item with name minecraft:oak_leaves]
+[18:03:39] [Async Chat Thread - #5/INFO]: <Ellymental> has anybody made a base yet?[m
+
+[18:04:14] [Async Chat Thread - #5/INFO]: <Ellymental> on only 3 people are on rn[m
+
+[18:04:17] [Async Chat Thread - #5/INFO]: <darthfurry> ye[m
+
+[18:04:32] [Async Chat Thread - #5/INFO]: <darthfurry> fc[m
+
+[18:04:47] [Server thread/INFO]: lilkash99_hitbox issued server command: /
+[18:05:05] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[18:05:05] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[18:05:10] [Async Chat Thread - #5/INFO]: <lilkash99_hitbox> TTTTTTTTTTTTTTTTTTTTRRRRRRRRRRRRRRRRRRRRRRRRRIIIIIIIIIIIIIIIIIIGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG[m
+
+[18:05:14] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[18:05:14] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[18:05:14] [Async Chat Thread - #5/INFO]: <Ellymental> uh what?[m
+
+[18:05:17] [Async Chat Thread - #5/INFO]: <lilkash99_hitbox> EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRR[m
+
+[18:05:23] [Async Chat Thread - #5/INFO]: <lilkash99_hitbox> EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDD[m
+
+[18:05:32] [Server thread/INFO]: lilkash99_hitbox issued server command: /
+[18:06:18] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[18:06:18] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[18:06:27] [Server thread/INFO]: darthfurry issued server command: /effect @p night_vision 1000000 255 true
+[18:06:27] [Server thread/INFO]: [darthfurry: Given Night Vision (ID 16) * 255 to darthfurry for 1000000 seconds]
+[18:07:01] [Async Chat Thread - #6/INFO]: <Ellymental> where are yall at, im lonely :([m
+
+[18:07:04] [Async Chat Thread - #6/INFO]: <darthfurry> e[m
+
+[18:07:11] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[18:07:11] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[18:07:25] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[18:07:25] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[18:07:27] [Async Chat Thread - #6/INFO]: <darthfurry> far[m
+
+[18:07:36] [Async Chat Thread - #6/INFO]: <darthfurry> im far[m
+
+[18:07:38] [Async Chat Thread - #6/INFO]: <Ellymental> :([m
+
+[18:08:14] [Async Chat Thread - #6/INFO]: <lilkash99_hitbox> now ouy, siht ees ouy fi[m
+
+[18:08:22] [Async Chat Thread - #6/INFO]: <darthfurry> yay[m
+
+[18:08:23] [Async Chat Thread - #6/INFO]: <darthfurry> i win[m
+
+[18:08:24] [Async Chat Thread - #6/INFO]: <Ellymental> i also see it[m
+
+[18:08:25] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[18:08:25] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[18:08:32] [Async Chat Thread - #6/INFO]: <Ellymental> which means i win[m
+
+[18:08:34] [Async Chat Thread - #6/INFO]: <Ellymental> as well[m
+
+[18:08:35] [Async Chat Thread - #6/INFO]: <darthfurry> ele we won[m
+
+[18:08:36] [Async Chat Thread - #6/INFO]: <darthfurry> ogm[m
+
+[18:08:37] [Async Chat Thread - #6/INFO]: <darthfurry> omg[m
+
+[18:08:38] [Async Chat Thread - #6/INFO]: <Ellymental> no way[m
+
+[18:08:52] [Thread-24/INFO]: UUID of player Saitama is 6feef294-7e28-3497-bd05-86558cb1824d
+[18:08:52] [Server thread/INFO]: Saitama[/[0:0:0:0:0:0:0:1]:39272] logged in with entity id 67012 at ([world]287.4423644541446, 64.0, 347.90031069130146)
+[18:08:53] [Async Chat Thread - #6/INFO]: <lilkash99_hitbox> you now get 438534o95274858234379782476378642342384236846823687416378487627642634934 netherite[m
+
+[18:08:57] [Async Chat Thread - #6/INFO]: <darthfurry> omg yay[m
+
+[18:08:59] [Server thread/INFO]: Saitama lost connection: Disconnected
+[18:08:59] [Server thread/INFO]: Saitama left the game.
+[18:09:07] [Server thread/INFO]: darthfurry issued server command: /give @p spawner
+[18:09:07] [Server thread/INFO]: [darthfurry: There is no such item with name minecraft:spawner]
+[18:09:15] [Server thread/INFO]: darthfurry issued server command: /give @p monster_spawner
+[18:09:15] [Server thread/INFO]: [darthfurry: There is no such item with name minecraft:monster_spawner]
+[18:09:25] [Async Chat Thread - #6/INFO]: <lilkash99_hitbox> and you own the end crystal[m
+
+[18:09:35] [Async Chat Thread - #6/INFO]: <lilkash99_hitbox> i guess[m
+
+[18:09:37] [Server thread/INFO]: darthfurry issued server command: /give @p mob_spawner
+[18:09:37] [Server thread/INFO]: [darthfurry: Given [Monster Spawner] * 1 to darthfurry]
+[18:09:49] [Server thread/INFO]: darthfurry issued server command: /give @p mob_spawner
+[18:09:49] [Server thread/INFO]: [darthfurry: Given [Monster Spawner] * 1 to darthfurry]
+[18:17:57] [Async Chat Thread - #7/INFO]: <lilkash99_hitbox> 7 hours later[m
+
+[18:17:59] [Async Chat Thread - #7/INFO]: <darthfurry> e[m
+
+[18:18:00] [Async Chat Thread - #7/INFO]: <Ellymental> a[m
+
+[18:18:34] [Async Chat Thread - #7/INFO]: <Ellymental> ngl i think i found a possibly cool base spot[m
+
+[18:18:39] [Async Chat Thread - #7/INFO]: <darthfurry> cool[m
+
+[18:18:57] [Async Chat Thread - #7/INFO]: <Ellymental> but i'll have to remove a lotta trees and do some terraforming[m
+
+[18:19:27] [Server thread/INFO]: darthfurry issued server command: /fill 794 22 139 ~ ~ ~ air
+[18:19:27] [Server thread/INFO]: [darthfurry: 177 blocks filled]
+[18:20:07] [Server thread/INFO]: darthfurry issued server command: /fill 785 21 142 ~ ~ ~ stone
+[18:20:07] [Server thread/INFO]: [darthfurry: 37 blocks filled]
+[18:20:52] [Async Chat Thread - #8/INFO]: <lilkash99_hitbox> i gonna paly mi vr[m
+
+[18:20:55] [Async Chat Thread - #8/INFO]: <lilkash99_hitbox> by[m
+
+[18:20:57] [Async Chat Thread - #8/INFO]: <Ellymental> bye[m
+
+[18:20:58] [Async Chat Thread - #8/INFO]: <darthfurry> bye[m
+
+[18:21:02] [Server thread/INFO]: lilkash99_hitbox lost connection: Disconnected
+[18:21:02] [Server thread/INFO]: lilkash99_hitbox left the game.
+[18:22:55] [Thread-25/INFO]: UUID of player hmmmmm is cbe5dfc7-80e3-3591-b432-f0e598c8c21c
+[18:22:55] [Server thread/INFO]: hmmmmm[/[0:0:0:0:0:0:0:1]:57368] logged in with entity id 73547 at ([world]246.97503177202285, 11.0, 349.98322920734324)
+[18:23:05] [Async Chat Thread - #9/INFO]: <Ellymental> hi[m
+
+[18:23:06] [Async Chat Thread - #9/INFO]: <hmmmmm> only 3 now[m
+
+[18:23:08] [Async Chat Thread - #9/INFO]: <darthfurry> hi[m
+
+[18:23:38] [Async Chat Thread - #9/INFO]: <Ellymental> brb[m
+
+[18:24:12] [Async Chat Thread - #9/INFO]: <hmmmmm> bruh idk where i came from[m
+
+[18:25:16] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[18:25:16] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[18:25:23] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[18:25:23] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[18:25:38] [Server thread/INFO]: hmmmmm lost connection: Disconnected
+[18:25:38] [Server thread/INFO]: hmmmmm left the game.
+[18:25:41] [Async Chat Thread - #10/INFO]: <Ellymental> a[m
+
+[18:25:49] [Server thread/INFO]: darthfurry issued server command: /fill 785 30 148 ~ ~ ~ air
+[18:25:49] [Server thread/INFO]: [darthfurry: 213 blocks filled]
+[18:26:01] [Server thread/INFO]: darthfurry issued server command: /fill 794 31 139 ~ ~ ~ stone
+[18:26:01] [Server thread/INFO]: [darthfurry: 184 blocks filled]
+[18:26:03] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[18:26:03] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[18:26:05] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[18:26:05] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[18:26:09] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[18:26:09] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[18:26:12] [Server thread/INFO]: darthfurry issued server command: /gamemode creatie
+[18:26:12] [Server thread/INFO]: [darthfurry: 'creatie' is not a valid number]
+[18:26:14] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[18:26:14] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[18:26:18] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[18:26:18] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[18:26:21] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[18:26:21] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[18:26:29] [Server thread/INFO]: Ellymental lost connection: Disconnected
+[18:26:29] [Server thread/INFO]: Ellymental left the game.
+[18:26:31] [Async Chat Thread - #10/INFO]: <darthfurry> noo[m
+
+[18:27:08] [Server thread/INFO]: darthfurry issued server command: /gamemode spectator
+[18:27:08] [Server thread/INFO]: [darthfurry: Set own game mode to Spectator Mode]
+[18:27:11] [Server thread/INFO]: darthfurry issued server command: /gamemode creative
+[18:27:11] [Server thread/INFO]: [darthfurry: Set own game mode to Creative Mode]
+[18:27:26] [Server thread/INFO]: darthfurry issued server command: /gamemode survival
+[18:27:26] [Server thread/INFO]: [darthfurry: Set own game mode to Survival Mode]
+[18:27:55] [Server thread/INFO]: darthfurry lost connection: Disconnected
+[18:27:55] [Server thread/INFO]: darthfurry left the game.
+[18:28:44] [Thread-26/INFO]: UUID of player Saitama is 6feef294-7e28-3497-bd05-86558cb1824d
+[18:28:44] [Server thread/INFO]: Saitama[/[0:0:0:0:0:0:0:1]:47602] logged in with entity id 75267 at ([world]287.4423644541446, 64.0, 347.90031069130146)
+[18:30:55] [Server thread/INFO]: Saitama issued server command: /tell Ninjaanimates5
+[18:33:26] [Server thread/INFO]: Saitama issued server command: /home
+[18:33:31] [Server thread/INFO]: Saitama issued server command: /home acreo
+[18:33:35] [Server thread/INFO]: Saitama issued server command: /back
+[18:33:37] [Server thread/INFO]: Saitama issued server command: /help
+[18:33:51] [Server thread/INFO]: Saitama issued server command: /help [SimpleHomes]
+[18:33:57] [Server thread/INFO]: Saitama issued server command: /help [worldedit]
+[18:34:01] [Server thread/INFO]: Saitama issued server command: /help worldedit
+[18:34:41] [Server thread/INFO]: Saitama issued server command: /worldedit
+[18:35:08] [Server thread/INFO]: Saitama issued server command: /worldedit cui
+[18:35:21] [Server thread/INFO]: Saitama issued server command: /worldedit cui home
+[18:35:31] [Server thread/INFO]: Saitama issued server command: /worldedit home
+[18:35:39] [Server thread/INFO]: Saitama issued server command: /worldedit cui home
+[18:35:41] [Thread-27/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[18:35:41] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:32936] logged in with entity id 76594 at ([world]284.6792496038502, 64.0, 347.4534553535787)
+[18:35:50] [Async Chat Thread - #11/INFO]: <Saitama> wart[m
+
+[18:36:12] [Server thread/INFO]: NinjaAnimates5 lost connection: Login timed out!
+[18:36:12] [Server thread/INFO]: NinjaAnimates5 left the game.
+[18:36:12] [Server thread/WARN]: handleDisconnection() called twice
+[18:36:15] [Thread-28/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[18:36:15] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:42080] logged in with entity id 76644 at ([world]284.6792496038502, 64.0, 347.4534553535787)
+[18:36:45] [Server thread/INFO]: Saitama lost connection: Disconnected
+[18:36:45] [Server thread/INFO]: Saitama left the game.
+[18:36:46] [Server thread/INFO]: NinjaAnimates5 lost connection: Login timed out!
+[18:36:46] [Server thread/INFO]: NinjaAnimates5 left the game.
+[18:36:46] [Server thread/WARN]: handleDisconnection() called twice
+[18:36:49] [Thread-29/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[18:36:49] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:51824] logged in with entity id 76681 at ([world]284.9137912061052, 64.0, 347.3683409239293)
+[18:37:01] [Thread-30/INFO]: UUID of player hmmmmm is cbe5dfc7-80e3-3591-b432-f0e598c8c21c
+[18:37:01] [Server thread/INFO]: hmmmmm[/[0:0:0:0:0:0:0:1]:50324] logged in with entity id 76697 at ([world]272.6859119420169, 12.0, 290.69999998807907)
+[18:37:16] [Server thread/INFO]: NinjaAnimates5 issued server command: /regiester <password>
+[18:37:20] [Server thread/INFO]: NinjaAnimates5 lost connection: Login timed out!
+[18:37:20] [Server thread/INFO]: NinjaAnimates5 left the game.
+[18:37:20] [Server thread/WARN]: handleDisconnection() called twice
+[18:37:23] [Thread-31/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[18:37:23] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:54326] logged in with entity id 76730 at ([world]284.99774699322745, 64.20000004768372, 347.41888407199986)
+[18:37:54] [Server thread/INFO]: NinjaAnimates5 lost connection: Login timed out!
+[18:37:54] [Server thread/INFO]: NinjaAnimates5 left the game.
+[18:37:54] [Server thread/WARN]: handleDisconnection() called twice
+[18:38:54] [Thread-32/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[18:38:54] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:54674] logged in with entity id 76936 at ([world]284.99355846318343, 64.0, 347.4960940837852)
+[18:39:25] [Server thread/INFO]: NinjaAnimates5 lost connection: Login timed out!
+[18:39:25] [Server thread/INFO]: NinjaAnimates5 left the game.
+[18:39:25] [Server thread/WARN]: handleDisconnection() called twice
+[18:39:29] [Thread-33/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[18:39:29] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:44812] logged in with entity id 76980 at ([world]284.03869896974317, 64.0, 347.30000001192093)
+[18:39:39] [Server thread/INFO]: NinjaAnimates5 lost connection: Disconnected
+[18:39:39] [Server thread/INFO]: NinjaAnimates5 left the game.
+[18:40:48] [Thread-34/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[18:40:48] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:58178] logged in with entity id 77073 at ([world]284.9331019589843, 64.0, 347.99569266604203)
+[18:41:19] [Server thread/INFO]: NinjaAnimates5 lost connection: Login timed out!
+[18:41:19] [Server thread/INFO]: NinjaAnimates5 left the game.
+[18:41:19] [Server thread/WARN]: handleDisconnection() called twice
+[18:43:20] [Thread-35/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[18:43:20] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:57972] logged in with entity id 77307 at ([world]284.9331019589843, 64.0, 347.99569266604203)
+[18:43:34] [Server thread/INFO]: NinjaAnimates5 lost connection: Disconnected
+[18:43:34] [Server thread/INFO]: NinjaAnimates5 left the game.
+[18:52:57] [Server thread/INFO]: [Server] hello
+[18:53:01] [Async Chat Thread - #12/INFO]: <hmmmmm> oh[m
+
+[18:53:07] [Server thread/INFO]: [Server] hru
+[19:01:00] [Async Chat Thread - #13/INFO]: <hmmmmm> i just want diamonds[m
+
+[19:12:59] [Thread-36/INFO]: UUID of player Saitama is 6feef294-7e28-3497-bd05-86558cb1824d
+[19:12:59] [Server thread/INFO]: Saitama[/[0:0:0:0:0:0:0:1]:48552] logged in with entity id 81946 at ([world]286.94403221085713, 64.0, 348.38432367075575)
+[19:13:01] [Server thread/INFO]: Saitama issued server command: /
+[19:13:05] [Async Chat Thread - #14/INFO]: <Saitama> u there?[m
+
+[19:13:18] [Async Chat Thread - #14/INFO]: <hmmmmm> its just me[m
+
+[19:13:21] [Async Chat Thread - #14/INFO]: <Saitama> okay[m
+
+[19:13:23] [Async Chat Thread - #14/INFO]: <hmmmmm> and possibly darth[m
+
+[19:13:27] [Async Chat Thread - #14/INFO]: <Saitama> darth ded fr[m
+
+[19:13:42] [Thread-37/INFO]: UUID of player NinjaAnimates5 is 09509bf7-09d1-37b1-b74f-31a024128666
+[19:13:42] [Server thread/INFO]: NinjaAnimates5[/[0:0:0:0:0:0:0:1]:60274] logged in with entity id 82236 at ([world]284.9331019589843, 64.0, 347.99569266604203)
+[19:14:06] [Server thread/INFO]: NinjaAnimates5 lost connection: Disconnected
+[19:14:06] [Server thread/INFO]: NinjaAnimates5 left the game.
+[19:14:09] [Server thread/INFO]: Saitama lost connection: Disconnected
+[19:14:09] [Server thread/INFO]: Saitama left the game.
+[19:16:55] [Async Chat Thread - #15/INFO]: <hmmmmm> POTATO[m
+
+[19:16:59] [Async Chat Thread - #15/INFO]: <hmmmmm> THE POTATAO[m
+
+[19:17:13] [Async Chat Thread - #15/INFO]: <hmmmmm> I CANNOT LOSE THE POTATO[m
+
+[19:19:19] [Async Chat Thread - #16/INFO]: <hmmmmm> darth[m
+
+[19:19:24] [Async Chat Thread - #16/INFO]: <hmmmmm> u there?[m
+
+[19:24:04] [Server thread/INFO]: [Server] i gtg
+[19:24:07] [Async Chat Thread - #17/INFO]: <hmmmmm> oh[m
+
+[19:24:10] [Async Chat Thread - #17/INFO]: <hmmmmm> bye[m
+
+[19:33:21] [Thread-38/INFO]: UUID of player jordan is e70e3f3d-58dd-39f7-b255-918fd82cd2ee
+[19:33:21] [Server thread/INFO]: jordan[/[0:0:0:0:0:0:0:1]:37218] logged in with entity id 86184 at ([world]233.5, 66.0, 248.5)
+[19:33:34] [Server thread/INFO]: jordan lost connection: Disconnected
+[19:33:34] [Server thread/INFO]: jordan left the game.
+[19:33:46] [Thread-39/INFO]: UUID of player darthfurry is 4db55e70-ab71-3b7a-9b39-527e1037b9fd
+[19:33:46] [Server thread/INFO]: darthfurry[/[0:0:0:0:0:0:0:1]:57792] logged in with entity id 86501 at ([world]790.5090651631518, 6.0, 155.13356185047053)
+[19:34:06] [Async Chat Thread - #18/INFO]: <hmmmmm> darth wheres the strong hold[m
+
+[19:34:15] [Server thread/INFO]: darthfurry lost connection: Disconnected
+[19:34:15] [Server thread/INFO]: darthfurry left the game.
+[19:34:26] [Thread-40/INFO]: UUID of player das is 57c851fd-399a-337a-98a5-d8f47c4bf0d1
+[19:34:26] [Server thread/INFO]: das[/[0:0:0:0:0:0:0:1]:38528] logged in with entity id 86571 at ([world]664.2680081859197, 71.0155550727022, -426.0168363132995)
+[19:34:46] [Server thread/INFO]: das lost connection: Disconnected
+[19:34:46] [Server thread/INFO]: das left the game.
+[19:35:23] [Thread-41/INFO]: UUID of player osama is a47790d8-daeb-3ae6-afe1-19897aaaee79
+[19:35:23] [Server thread/INFO]: osama[/[0:0:0:0:0:0:0:1]:59808] logged in with entity id 86669 at ([world]185.6518455296868, 62.0, 285.69999998807907)
+[19:36:18] [Server thread/INFO]: osama suffocated in a wall
+[19:37:04] [Thread-42/INFO]: UUID of player das is 57c851fd-399a-337a-98a5-d8f47c4bf0d1
+[19:37:04] [Server thread/INFO]: das[/[0:0:0:0:0:0:0:1]:52500] logged in with entity id 86797 at ([world]664.2680081859197, 70.0, -426.0168363132995)
+[19:37:05] [Async Chat Thread - #19/INFO]: <hmmmmm> dont go there[m
+
+[19:37:30] [Server thread/INFO]: das issued server command: /ogin gayporn
+[19:37:39] [Server thread/INFO]: das lost connection: Disconnected
+[19:37:39] [Server thread/INFO]: das left the game.
+[19:38:11] [Thread-43/INFO]: UUID of player das is 57c851fd-399a-337a-98a5-d8f47c4bf0d1
+[19:38:11] [Server thread/INFO]: das[/[0:0:0:0:0:0:0:1]:48612] logged in with entity id 87121 at ([world]660.8556492082273, 62.01763159776531, -429.69999998807907)
+[19:41:00] [Thread-44/INFO]: UUID of player Ellymental is 26c4e024-84c4-3179-8914-2b58102eb11b
+[19:41:00] [Server thread/INFO]: Ellymental[/[0:0:0:0:0:0:0:1]:42282] logged in with entity id 88507 at ([world]753.9917867487482, 70.24918707874468, 463.9350568635236)
+[19:41:17] [Server thread/INFO]: das issued server command: /tell ellymental why did you come to stronghold
+[19:41:31] [Server thread/INFO]: Ellymental lost connection: Login timed out!
+[19:41:31] [Server thread/INFO]: Ellymental left the game.
+[19:41:31] [Server thread/WARN]: handleDisconnection() called twice
+[19:41:37] [Thread-45/INFO]: UUID of player Ellymental is 26c4e024-84c4-3179-8914-2b58102eb11b
+[19:41:37] [Server thread/INFO]: Ellymental[/[0:0:0:0:0:0:0:1]:53284] logged in with entity id 88664 at ([world]753.9917867487482, 69.0, 463.9350568635236)
+[19:41:54] [Server thread/INFO]: das issued server command: /tell ellymental answer
+[19:42:10] [Async Chat Thread - #20/INFO]: <Ellymental> how do i whisper to someone[m
+
+[19:42:14] [Server thread/INFO]: das issued server command: /tell
+[19:42:16] [Async Chat Thread - #20/INFO]: <hmmmmm> ./tell[m
+
+[19:42:23] [Async Chat Thread - #20/INFO]: <Ellymental> okie bc das is whispering to me[m
+
+[19:42:30] [Server thread/INFO]: Ellymental issued server command: /tell wdym?
+[19:42:32] [Async Chat Thread - #20/INFO]: <hmmmmm> why would u tell that[m
+
+[19:42:37] [Server thread/INFO]: Ellymental issued server command: /tell das wdym?
+[19:42:47] [Server thread/INFO]: osama drowned
+[19:42:48] [Server thread/INFO]: das issued server command: /tell ellymental someone told you coords right
+[19:42:51] [Async Chat Thread - #20/INFO]: <das> bruh[m
+
+[19:42:57] [Server thread/INFO]: das issued server command: /me drowned
+[19:42:57] [Server thread/INFO]: * das drowned
+[19:43:04] [Server thread/INFO]: Ellymental issued server command: /tell das nobody gave me coords to anywhere?
+[19:43:20] [Server thread/INFO]: das issued server command: /tell ellymental wait ur elemental nvm
+[19:43:28] [Server thread/INFO]: Ellymental issued server command: /tell das skull emoji
+[19:43:39] [Server thread/INFO]: das issued server command: /tell ellymental wya
+[19:43:52] [Server thread/INFO]: Ellymental lost connection: Disconnected
+[19:43:52] [Server thread/INFO]: Ellymental left the game.
+[19:45:21] [Server thread/INFO]: hmmmmm fell from a high place
+[19:45:24] [Server thread/WARN]: das moved too quickly! -11.947260307542592,0.0,0.0030812510684938843 (-11.947260307542592, 0.0, 0.0030812510684938843)
+[19:45:33] [Thread-46/INFO]: UUID of player Ellymental is 26c4e024-84c4-3179-8914-2b58102eb11b
+[19:45:33] [Server thread/INFO]: Ellymental[/[0:0:0:0:0:0:0:1]:46496] logged in with entity id 91001 at ([world]779.3729027031275, 65.0, 424.1136475842973)
+[19:45:38] [Server thread/WARN]: das moved too quickly! 0.0,0.0,15.755645639513396 (0.0, 0.0, 15.755645639513396)
+[19:45:39] [Server thread/WARN]: das moved too quickly! 0.0,0.0,12.858381364642295 (0.0, 0.0, 12.858381364642295)
+[19:45:43] [Async Chat Thread - #21/INFO]: <Ellymental> MY COMPUTER KEEPS CRASHING WAHHHH[m
+
+[19:46:27] [Server thread/INFO]: hmmmmm issued server command: /back
+[19:46:56] [Thread-47/INFO]: UUID of player darthfurry is 4db55e70-ab71-3b7a-9b39-527e1037b9fd
+[19:46:56] [Server thread/INFO]: darthfurry[/[0:0:0:0:0:0:0:1]:35430] logged in with entity id 91562 at ([world]790.5090651631518, 6.0, 155.13356185047053)
+[19:47:06] [Server thread/INFO]: das issued server command: /tell darthfurry you took all the stuff i put in chest
+[19:47:13] [Server thread/INFO]: das issued server command: /tell darthfurry all the iron and diamonds
+[19:47:18] [Server thread/INFO]: das issued server command: /tell darthfurry wtf bro
+[19:47:27] [Server thread/INFO]: darthfurry lost connection: Login timed out!
+[19:47:27] [Server thread/INFO]: darthfurry left the game.
+[19:47:27] [Server thread/WARN]: handleDisconnection() called twice
+[19:47:57] [Server thread/INFO]: Ellymental lost connection: Disconnected
+[19:47:57] [Server thread/INFO]: Ellymental left the game.
+[19:48:24] [Server thread/INFO]: das was burnt to a crisp whilst fighting Zombie Pigman
+[19:49:12] [Server thread/INFO]: osama has just earned the achievement [Getting Wood]
+[19:50:15] [Async Chat Thread - #22/INFO]: <hmmmmm> whats spawn cords[m
+
+[19:50:17] [Async Chat Thread - #22/INFO]: <hmmmmm> im lost[m
+
+[19:50:35] [Async Chat Thread - #22/INFO]: <hmmmmm> nvm[m
+
+[19:50:41] [Thread-48/INFO]: UUID of player Saitama is 6feef294-7e28-3497-bd05-86558cb1824d
+[19:50:41] [Server thread/INFO]: Saitama[/[0:0:0:0:0:0:0:1]:48420] logged in with entity id 94098 at ([world]288.29708929069704, 64.0, 348.4549417890044)
+[19:50:52] [Async Chat Thread - #22/INFO]: <Saitama> wsg[m
+
+[19:51:30] [Async Chat Thread - #22/INFO]: <Saitama> hello?[m
+
+[19:52:12] [Server thread/INFO]: Saitama lost connection: Disconnected
+[19:52:12] [Server thread/INFO]: Saitama left the game.
+[19:52:22] [Async Chat Thread - #22/INFO]: <hmmmmm> i left some iron in the chest if anyone wants[m
 

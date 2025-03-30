@@ -1,5 +1,23 @@
 [
   {
+    "uuid": "05fa4fbe-26c8-3cb5-a892-9d3091f5767c",
+    "name": "duck_tax",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d981d0c2-2448-300c-be19-e0a25af04f67",
+    "name": "TealMay",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "931d936e-dffb-39f9-9c46-ee7fe65211d5",
+    "name": "Infinity",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "4db55e70-ab71-3b7a-9b39-527e1037b9fd",
     "name": "darthfurry",
     "level": 4,
